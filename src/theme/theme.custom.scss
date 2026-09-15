@@ -296,6 +296,37 @@ ion-button {
     font-weight: 600;
 }
 
+// Chips & Badges: High contrast readable dark text for course category pills and primary chips
+ion-chip {
+    &.ion-color-primary,
+    &.core-course-category {
+        --color: var(--ibs-navy, #121926) !important;
+        color: var(--ibs-navy, #121926) !important;
+        font-weight: 600;
+
+        ion-label,
+        core-format-text,
+        span {
+            color: var(--ibs-navy, #121926) !important;
+            font-weight: 600;
+        }
+    }
+}
+
+:root.dark ion-chip {
+    &.ion-color-primary,
+    &.core-course-category {
+        --color: var(--ibs-navy, #121926) !important;
+        color: var(--ibs-navy, #121926) !important;
+
+        ion-label,
+        core-format-text,
+        span {
+            color: var(--ibs-navy, #121926) !important;
+        }
+    }
+}
+
 // Cards: 12px radius, subtle modern shadow
 ion-card {
     --border-radius: 12px;
