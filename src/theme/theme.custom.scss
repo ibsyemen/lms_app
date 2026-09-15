@@ -72,11 +72,20 @@
     --core-star-color: var(--ibs-gold);
     --core-link-color: #0284c7;
 
-    // Header Toolbar (IBS Official Navy Header with crisp white icons)
-    --core-header-toolbar-background: var(--ibs-navy);
-    --core-header-toolbar-color: #ffffff;
-    --core-header-toolbar-border-color: rgba(255, 255, 255, 0.12);
-    --core-header-buttons-color: #ffffff;
+    // Header Toolbar (IBS Light Sky Header with Decorative Wave, matching official reference)
+    --core-header-toolbar-background: #cdeffb url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='375' height='141' viewBox='0 0 375 141' fill='none'%3E%3Cpath opacity='0.25' d='M-41.195 111.944C-41.195 111.944 63.7612 121.251 131.57 144.837C199.379 168.423 306.076 232.735 306.076 232.735C306.076 232.735 331.365 102.582 375.17 35.2233C421.581 -36.1409 534.934 -108 534.934 -108' stroke='%235ECCF1' stroke-width='32'/%3E%3C/svg%3E") no-repeat right bottom / cover;
+    --core-header-toolbar-color: var(--ibs-navy);
+    --core-header-toolbar-border-color: transparent;
+    --core-header-toolbar-border-width: 0px;
+    --core-header-buttons-color: var(--ibs-navy);
+    --core-header-shadow: none;
+
+    // Searchbar (IBS Gold Outline & 12px Radius)
+    --ion-searchbar-background: #ffffff;
+    --ion-searchbar-border-color: var(--ibs-gold);
+    --ion-searchbar-color: var(--ibs-navy);
+    --ion-searchbar-icon-color: var(--ibs-muted);
+    --ion-searchbar-border-radius: 12px;
 
     // Bottom Navigation Bar
     --core-bottom-tabs-background: #ffffff;
@@ -89,7 +98,6 @@
     // Component Radius Tokens (Matches IBS Design System)
     --ion-card-radius: 12px;
     --core-input-radius: 12px;
-    --ion-searchbar-border-radius: 12px;
     --core-search-box-border-radius: 12px;
     --core-combobox-radius: 12px;
     --modal-radius: 16px;
@@ -146,6 +154,12 @@
     --core-header-toolbar-border-color: rgba(255, 255, 255, 0.08);
     --core-header-buttons-color: #ffffff;
 
+    // Searchbar in Dark Mode
+    --ion-searchbar-background: #1e1e1e;
+    --ion-searchbar-border-color: rgba(255, 229, 145, 0.45);
+    --ion-searchbar-color: #ffffff;
+    --ion-searchbar-icon-color: #b0b0b0;
+
     // Bottom Navigation Bar
     --core-bottom-tabs-background: #181818;
     --core-bottom-tabs-color: #b0b0b0;
@@ -169,6 +183,105 @@
 /* ==========================================================================
    4. UI Component Enhancements
    ========================================================================== */
+
+// Header & Toolbar: IBS Light Sky Header with Centered Title & Wave Background
+ion-header {
+    background: var(--core-header-toolbar-background);
+    box-shadow: none !important;
+
+    ion-toolbar {
+        --background: var(--core-header-toolbar-background);
+        --color: var(--core-header-toolbar-color);
+        --border-color: transparent;
+        --border-width: 0px;
+        --min-height: 52px;
+    }
+
+    ion-title {
+        text-align: center;
+
+        h1, h2, .subheading {
+            text-align: center;
+            font-family: var(--ion-font-family);
+            font-weight: 700;
+            font-size: 19px;
+            color: var(--core-header-toolbar-color);
+        }
+
+        &.ios {
+            text-align: center;
+
+            h1, h2, .subheading {
+                text-align: center;
+                font-family: var(--ion-font-family);
+                font-weight: 700;
+                font-size: 19px;
+                color: var(--core-header-toolbar-color);
+            }
+        }
+
+        h1 core-site-logo {
+            margin: 0 auto;
+        }
+    }
+
+    ion-back-button,
+    .in-toolbar.button-clear,
+    .in-toolbar.button-solid,
+    .button.button-clear,
+    .button.button-solid {
+        --color: var(--core-header-buttons-color);
+        color: var(--core-header-buttons-color);
+    }
+}
+
+:root.dark ion-header {
+    background: #0d131f;
+
+    ion-toolbar {
+        --background: #0d131f;
+        --color: #ffffff;
+    }
+
+    ion-title {
+        h1, h2, .subheading {
+            color: #ffffff;
+        }
+
+        &.ios h1,
+        &.ios h2,
+        &.ios .subheading {
+            color: #ffffff;
+        }
+    }
+
+    ion-back-button,
+    .in-toolbar.button-clear,
+    .in-toolbar.button-solid,
+    .button.button-clear,
+    .button.button-solid {
+        --color: #ffffff;
+        color: #ffffff;
+    }
+}
+
+// Searchbar: Crisp gold border & 12px border radius
+ion-searchbar {
+    .searchbar-input {
+        border: 1.5px solid var(--ibs-gold) !important;
+        border-radius: 12px !important;
+        background: var(--ion-searchbar-background) !important;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04) !important;
+    }
+}
+
+:root.dark ion-searchbar {
+    .searchbar-input {
+        border-color: rgba(255, 229, 145, 0.45) !important;
+        background: #1e1e1e !important;
+        color: #ffffff !important;
+    }
+}
 
 // Buttons: Rounded corners (8px) & font weight
 ion-button {
