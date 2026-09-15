@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget android-versionCode="53000" id="com.moodle.moodlemobile" ios-CFBundleVersion="5.3.0.0" version="5.3.0" versionCode="53000" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Moodle</name>
-    <description>Moodle official app</description>
+    <description>تطبيق منصة التعليم الإلكتروني - معهد الدراسات المصرفية (IBS)</description>
     <author email="mobile@moodle.com" href="http://moodle.com">Moodle Mobile team</author>
-    <content original-src="index.html" src="https://192.168.1.206:8100" />
+    <content src="index.html" />
     <access origin="*" />
     <access launch-external="yes" origin="tel:*" />
     <access launch-external="yes" origin="mailto:*" />
@@ -87,6 +87,9 @@
         <hook src="scripts/cordova-hooks/link_ios_emulator.sh" type="after_compile" />
         <hook src="scripts/cordova-hooks/link_ios_emulator.sh" type="after_build" />
         <resource-file src="GoogleService-Info.plist" />
+        <edit-config file="*-Info.plist" mode="merge" target="CFBundleDisplayName">
+            <string>معهد الدراسات المصرفية</string>
+        </edit-config>
         <edit-config file="*-Info.plist" mode="merge" target="NSCameraUsageDescription">
             <string>We need camera access to take pictures so you can use them for changing your profile picture, attach them in your tasks submission and share them with the teachers.</string>
         </edit-config>
@@ -512,5 +515,4 @@
             </array>
         </config-file>
     </platform>
-    <allow-navigation href="https://192.168.1.206:8100" sessionid="a5b6ac63" />
 </widget>
