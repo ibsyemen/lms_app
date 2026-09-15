@@ -96,7 +96,7 @@
     "multisitesdisplay": "",
     "sitefindersettings": {},
     "onlyallowlistedsites": true,
-    "forcedefaultlanguage": true,
+    "forcedefaultlanguage": false,
     "privacypolicy": "https://moodle.net/moodle-app-privacy/",
     "notificoncolor": "#5eccf1",
     "enableanalytics": false,
