@@ -1,21 +1,199 @@
 /*
  * App CUSTOM theme SCSS
  * ----------------------------------------------------------------------------
- * Place here custom styles.
+ * Institute of Banking Studies (IBS) Brand Theme & Design System
  */
 
-/*
- * Light Theme
- * -------------------------------------------
- */
+/* ==========================================================================
+   1. Typography & Custom Fonts
+   ========================================================================== */
+
+@font-face {
+    font-family: 'PingARLT';
+    src: url('../assets/fonts/pingar/PingAR+LT-Regular.otf') format('opentype'),
+         url('/assets/fonts/pingar/PingAR+LT-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PingARLT';
+    src: url('../assets/fonts/pingar/PingAR+LT-Medium.otf') format('opentype'),
+         url('/assets/fonts/pingar/PingAR+LT-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PingARLT';
+    src: url('../assets/fonts/pingar/PingAR+LT-Bold.otf') format('opentype'),
+         url('/assets/fonts/pingar/PingAR+LT-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ==========================================================================
+   2. Light Theme - IBS Brand Identity
+   ========================================================================== */
+
 :root {
+    // IBS Brand Palette
+    --ibs-cyan: #5eccf1;
+    --ibs-cyan-shade: #53b4d4;
+    --ibs-cyan-tint: #6ed1f2;
+    --ibs-cyan-soft: #e9f8fd;
+    --ibs-navy: #121926;
+    --ibs-navy-rgb: 18, 25, 38;
+    --ibs-gold: #ffe591;
+    --ibs-ink: #1b2432;
+    --ibs-muted: #6b7280;
+    --ibs-border: #e5e7eb;
 
+    // Global Font Override
+    --ion-font-family: 'PingARLT', var(--ion-default-font), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    --font-family-base: var(--ion-font-family);
+
+    // Primary Brand Color & High-Contrast Pairing (Navy text on Cyan buttons)
+    --primary: var(--ibs-cyan);
+    --primary-contrast: var(--ibs-navy);
+    --ion-color-primary: var(--ibs-cyan);
+    --ion-color-primary-rgb: 94, 204, 241;
+    --ion-color-primary-contrast: var(--ibs-navy);
+    --ion-color-primary-contrast-rgb: 18, 25, 38;
+    --ion-color-primary-shade: var(--ibs-cyan-shade);
+    --ion-color-primary-tint: var(--ibs-cyan-tint);
+
+    // Secondary / Accent Colors
+    --ion-color-secondary: var(--ibs-navy);
+    --ion-color-secondary-contrast: #ffffff;
+    --core-star-color: var(--ibs-gold);
+    --core-link-color: #0284c7;
+
+    // Header Toolbar (IBS Official Navy Header with crisp white icons)
+    --core-header-toolbar-background: var(--ibs-navy);
+    --core-header-toolbar-color: #ffffff;
+    --core-header-toolbar-border-color: rgba(255, 255, 255, 0.12);
+    --core-header-buttons-color: #ffffff;
+
+    // Bottom Navigation Bar
+    --core-bottom-tabs-background: #ffffff;
+    --core-bottom-tabs-color: var(--ibs-muted);
+    --core-bottom-tabs-color-selected: var(--ibs-navy);
+    --core-bottom-tabs-border-color-active: var(--ibs-cyan);
+    --core-bottom-tabs-badge-color: var(--ibs-cyan);
+    --core-bottom-tabs-badge-text-color: var(--ibs-navy);
+
+    // Component Radius Tokens (Matches IBS Design System)
+    --ion-card-radius: 12px;
+    --core-input-radius: 12px;
+    --ion-searchbar-border-radius: 12px;
+    --core-search-box-border-radius: 12px;
+    --core-combobox-radius: 12px;
+    --modal-radius: 16px;
+
+    // Login Page Styling
+    --core-login-background: #ffffff;
+    --core-login-text-color: var(--ibs-ink);
+    --core-login-input-background: #ffffff;
+    --core-login-input-color: var(--ibs-ink);
+    --core-login-input-border-color: var(--ibs-border);
 }
 
-/*
- * Dark Theme
- * -------------------------------------------
- */
+/* ==========================================================================
+   3. Dark Theme - IBS Brand Identity
+   ========================================================================== */
+
 :root.dark {
+    // Scaffold & Surface
+    --ion-background-color: #121212;
+    --ion-background-color-rgb: 18, 18, 18;
+    --background-color: #121212;
+    --ion-item-background: #1e1e1e;
+    --contrast-background: #1e1e1e;
 
+    // Text & Stroke
+    --text-color: #ffffff;
+    --ion-text-color: #ffffff;
+    --subdued-text-color: #b0b0b0;
+    --stroke: #2e2e2e;
+    --ion-border-color: #2e2e2e;
+    --ion-item-border-color: #2e2e2e;
+
+    // Cards & Inputs
+    --ion-card-background: #1e1e1e;
+    --ion-card-color: #ffffff;
+    --ion-card-border-color: #2e2e2e;
+    --core-input-background: #1e1e1e;
+    --core-input-stroke: #383838;
+    --core-input-text: #ffffff;
+
+    // Primary Brand
+    --primary: var(--ibs-cyan);
+    --primary-contrast: var(--ibs-navy);
+    --ion-color-primary: var(--ibs-cyan);
+    --ion-color-primary-rgb: 94, 204, 241;
+    --ion-color-primary-contrast: var(--ibs-navy);
+    --ion-color-primary-contrast-rgb: 18, 25, 38;
+    --ion-color-primary-shade: var(--ibs-cyan-shade);
+    --ion-color-primary-tint: var(--ibs-cyan-tint);
+
+    // Header Toolbar
+    --core-header-toolbar-background: #0d131f;
+    --core-header-toolbar-color: #ffffff;
+    --core-header-toolbar-border-color: rgba(255, 255, 255, 0.08);
+    --core-header-buttons-color: #ffffff;
+
+    // Bottom Navigation Bar
+    --core-bottom-tabs-background: #181818;
+    --core-bottom-tabs-color: #b0b0b0;
+    --core-bottom-tabs-color-selected: var(--ibs-cyan);
+    --core-bottom-tabs-border-color-active: var(--ibs-cyan);
+    --core-bottom-tabs-badge-color: var(--ibs-cyan);
+    --core-bottom-tabs-badge-text-color: var(--ibs-navy);
+
+    // Links & Highlights
+    --core-link-color: #5eccf1;
+    --core-star-color: var(--ibs-gold);
+
+    // Login Dark
+    --core-login-background: #121212;
+    --core-login-text-color: #ffffff;
+    --core-login-input-background: #1e1e1e;
+    --core-login-input-color: #ffffff;
+    --core-login-input-border-color: #2e2e2e;
 }
+
+/* ==========================================================================
+   4. UI Component Enhancements
+   ========================================================================== */
+
+// Buttons: Rounded corners (8px) & font weight
+ion-button {
+    --border-radius: 8px;
+    font-family: var(--ion-font-family);
+    font-weight: 600;
+}
+
+// Cards: 12px radius, subtle modern shadow
+ion-card {
+    --border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+:root.dark ion-card {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+// Login Logo Presentation
+.core-login-site-logo,
+core-site-logo {
+    img {
+        object-fit: contain;
+        max-height: 120px;
+    }
+}
+
