@@ -73,7 +73,7 @@
     --core-link-color: #0284c7;
 
     // Header Toolbar (IBS Light Sky Header with Decorative Wave, matching official reference)
-    --core-header-toolbar-background: #cdeffb url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='375' height='141' viewBox='0 0 375 141' fill='none'%3E%3Cpath opacity='0.25' d='M-41.195 111.944C-41.195 111.944 63.7612 121.251 131.57 144.837C199.379 168.423 306.076 232.735 306.076 232.735C306.076 232.735 331.365 102.582 375.17 35.2233C421.581 -36.1409 534.934 -108 534.934 -108' stroke='%235ECCF1' stroke-width='32'/%3E%3C/svg%3E") no-repeat right bottom / cover;
+    --core-header-toolbar-background: var(--ibs-cyan-light);
     --core-header-toolbar-color: var(--ibs-navy);
     --core-header-toolbar-border-color: transparent;
     --core-header-toolbar-border-width: 0px;
@@ -186,7 +186,7 @@
 
 // Header & Toolbar: IBS Light Sky Header with Centered Title & Wave Background
 ion-header {
-    background: var(--core-header-toolbar-background);
+    background-color: var(--core-header-toolbar-background);
     box-shadow: none !important;
 
     ion-toolbar {
@@ -195,6 +195,12 @@ ion-header {
         --border-color: transparent;
         --border-width: 0px;
         --min-height: 52px;
+
+        background-color: var(--core-header-toolbar-background);
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='375' height='141' viewBox='0 0 375 141' fill='none'%3E%3Cpath opacity='0.25' d='M-41.195 111.944C-41.195 111.944 63.7612 121.251 131.57 144.837C199.379 168.423 306.076 232.735 306.076 232.735C306.076 232.735 331.365 102.582 375.17 35.2233C421.581 -36.1409 534.934 -108 534.934 -108' stroke='%235ECCF1' stroke-width='32'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: cover;
     }
 
     ion-title {
