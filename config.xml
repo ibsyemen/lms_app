@@ -3,7 +3,7 @@
     <name>Moodle</name>
     <description>Moodle official app</description>
     <author email="mobile@moodle.com" href="http://moodle.com">Moodle Mobile team</author>
-    <content src="index.html" />
+    <content original-src="index.html" src="https://192.168.1.206:8100" />
     <access origin="*" />
     <access launch-external="yes" origin="tel:*" />
     <access launch-external="yes" origin="mailto:*" />
@@ -84,6 +84,8 @@
         </config-file>
     </platform>
     <platform name="ios">
+        <hook src="scripts/cordova-hooks/link_ios_emulator.sh" type="after_compile" />
+        <hook src="scripts/cordova-hooks/link_ios_emulator.sh" type="after_build" />
         <resource-file src="GoogleService-Info.plist" />
         <edit-config file="*-Info.plist" mode="merge" target="NSCameraUsageDescription">
             <string>We need camera access to take pictures so you can use them for changing your profile picture, attach them in your tasks submission and share them with the teachers.</string>
@@ -510,4 +512,5 @@
             </array>
         </config-file>
     </platform>
+    <allow-navigation href="https://192.168.1.206:8100" sessionid="a5b6ac63" />
 </widget>

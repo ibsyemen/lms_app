@@ -76,3 +76,8 @@ Thumbs.db
 
 /moodle.config.*.json
 !/moodle.config.example.json
+
+# Temporary design reference (do not commit)
+/ibs_new_app
+/ibs_new_app.zip
+
