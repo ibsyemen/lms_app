@@ -51,9 +51,8 @@
     <preference name="WKFullScreenEnabled" value="true" />
     <preference name="AndroidXEnabled" value="true" />
     <preference name="GradlePluginGoogleServicesEnabled" value="true" />
-    <preference name="StatusBarOverlaysWebView" value="true" />
-    <preference name="StatusBarBackgroundColor" value="#5ECCF1" />
-    <preference name="StatusBarStyle" value="default" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#FFFFFF" />
     <preference name="NavigationBarBackgroundColor" value="#FFFFFF" />
     <preference name="AndroidEdgeToEdge" value="true" />
     <feature name="StatusBar">
