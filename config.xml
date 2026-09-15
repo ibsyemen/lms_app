@@ -52,7 +52,7 @@
     <preference name="AndroidXEnabled" value="true" />
     <preference name="GradlePluginGoogleServicesEnabled" value="true" />
     <preference name="StatusBarOverlaysWebView" value="true" />
-    <preference name="StatusBarBackgroundColor" value="#CDEFFB" />
+    <preference name="StatusBarBackgroundColor" value="#5ECCF1" />
     <preference name="StatusBarStyle" value="default" />
     <preference name="NavigationBarBackgroundColor" value="#FFFFFF" />
     <preference name="AndroidEdgeToEdge" value="true" />

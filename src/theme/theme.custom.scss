@@ -72,12 +72,21 @@
     --core-star-color: var(--ibs-gold);
     --core-link-color: #0284c7;
 
-    // Header Toolbar (IBS Light Sky Header with Decorative Wave, matching official reference)
-    --core-header-toolbar-background: var(--ibs-cyan-light);
-    --core-header-toolbar-color: var(--ibs-navy);
+    // Header Design Tokens (IBS Brand Primary Cyan #5ECCF1 & Navy Contrast)
+    --ibs-header-background: var(--ibs-cyan);
+    --ibs-header-color: var(--ibs-navy);
+    --ibs-header-button-color: var(--ibs-navy);
+    --ibs-header-toolbar-height: 56px;
+    --ibs-header-title-size: 18px;
+
+    // Header Toolbar (Unified across all pages)
+    --core-header-toolbar-background: var(--ibs-header-background);
+    --core-header-toolbar-color: var(--ibs-header-color);
     --core-header-toolbar-border-color: transparent;
     --core-header-toolbar-border-width: 0px;
-    --core-header-buttons-color: var(--ibs-navy);
+    --core-header-toolbar-height: var(--ibs-header-toolbar-height);
+    --core-header-buttons-color: var(--ibs-header-button-color);
+    --core-header-buttons-background: transparent;
     --core-header-shadow: none;
 
     // Searchbar (IBS Gold Outline & 12px Radius)
@@ -148,11 +157,18 @@
     --ion-color-primary-shade: var(--ibs-cyan-shade);
     --ion-color-primary-tint: var(--ibs-cyan-tint);
 
-    // Header Toolbar
+    // Header Toolbar Dark Mode
+    --ibs-header-background: #0d131f;
+    --ibs-header-color: #ffffff;
+    --ibs-header-button-color: #ffffff;
+
     --core-header-toolbar-background: #0d131f;
     --core-header-toolbar-color: #ffffff;
     --core-header-toolbar-border-color: rgba(255, 255, 255, 0.08);
+    --core-header-toolbar-border-width: 0px;
+    --core-header-toolbar-height: var(--ibs-header-toolbar-height, 56px);
     --core-header-buttons-color: #ffffff;
+    --core-header-buttons-background: transparent;
 
     // Searchbar in Dark Mode
     --ion-searchbar-background: #1e1e1e;
@@ -184,50 +200,93 @@
    4. UI Component Enhancements
    ========================================================================== */
 
-// Header & Toolbar: IBS Light Sky Header with Centered Title & Wave Background
+// 4.1 Unified Global Header & Toolbar (Solid IBS Cyan #5ECCF1 across all pages)
 ion-header {
     background-color: var(--core-header-toolbar-background);
-    box-shadow: none !important;
+    box-shadow: var(--core-header-shadow, none);
+    transition: box-shadow 0.3s ease;
 
     ion-toolbar {
         --background: var(--core-header-toolbar-background);
         --color: var(--core-header-toolbar-color);
-        --border-color: transparent;
+        --min-height: var(--core-header-toolbar-height);
         --border-width: 0px;
-        --min-height: 52px;
+        --border-color: transparent;
+        --padding-top: 0px;
+        --padding-bottom: 0px;
+        --padding-start: 4px;
+        --padding-end: 4px;
 
         background-color: var(--core-header-toolbar-background);
-        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='375' height='141' viewBox='0 0 375 141' fill='none'%3E%3Cpath opacity='0.25' d='M-41.195 111.944C-41.195 111.944 63.7612 121.251 131.57 144.837C199.379 168.423 306.076 232.735 306.076 232.735C306.076 232.735 331.365 102.582 375.17 35.2233C421.581 -36.1409 534.934 -108 534.934 -108' stroke='%235ECCF1' stroke-width='32'/%3E%3C/svg%3E");
-        background-repeat: no-repeat;
-        background-position: right bottom;
-        background-size: cover;
+        color: var(--core-header-toolbar-color);
+        min-height: var(--core-header-toolbar-height);
+        contain: none;
     }
 
+    // Header Title: Clean start alignment for RTL/LTR, PingARLT Bold, perfect spacing
     ion-title {
-        text-align: center;
+        padding-inline: 8px;
+        color: var(--core-header-toolbar-color);
+        text-align: start;
 
         h1, h2, .subheading {
-            text-align: center;
             font-family: var(--ion-font-family);
             font-weight: 700;
-            font-size: 19px;
+            font-size: var(--ibs-header-title-size, 18px);
+            line-height: 1.3;
             color: var(--core-header-toolbar-color);
+            margin: 0;
+            text-align: start;
+            letter-spacing: normal;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
         &.ios {
-            text-align: center;
+            position: static;
+            text-align: start;
+            width: auto;
+            height: auto;
 
             h1, h2, .subheading {
-                text-align: center;
                 font-family: var(--ion-font-family);
                 font-weight: 700;
-                font-size: 19px;
+                font-size: var(--ibs-header-title-size, 18px);
                 color: var(--core-header-toolbar-color);
+                text-align: start;
             }
         }
 
+        // Home page top logo centered
         h1 core-site-logo {
             margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    // Buttons & Icons: Unified 44px touch targets, Navy color, proper alignment
+    ion-buttons {
+        display: flex;
+        align-items: center;
+
+        ion-button,
+        core-user-menu-button ion-button,
+        core-context-menu ion-button {
+            --color: var(--core-header-buttons-color);
+            --color-focused: var(--core-header-buttons-color);
+            --color-hover: var(--core-header-buttons-color);
+            color: var(--core-header-buttons-color);
+            min-width: 44px;
+            min-height: 44px;
+            margin: 0 2px;
+
+            ion-icon {
+                font-size: 22px;
+                color: var(--core-header-buttons-color);
+            }
         }
     }
 
@@ -237,37 +296,107 @@ ion-header {
     .button.button-clear,
     .button.button-solid {
         --color: var(--core-header-buttons-color);
+        --ion-toolbar-color: var(--core-header-buttons-color);
         color: var(--core-header-buttons-color);
+        min-width: 44px;
+        min-height: 44px;
+
+        &::part(icon) {
+            font-size: 22px;
+            color: var(--core-header-buttons-color);
+        }
+
+        ion-icon {
+            font-size: 22px;
+            color: var(--core-header-buttons-color);
+        }
     }
 }
 
-:root.dark ion-header {
-    background: #0d131f;
+// 4.2 Modal Headers: Enforce identical background, height, and button contrast
+ion-modal {
+    ion-header {
+        background-color: var(--core-header-toolbar-background) !important;
 
-    ion-toolbar {
-        --background: #0d131f;
-        --color: #ffffff;
-    }
-
-    ion-title {
-        h1, h2, .subheading {
-            color: #ffffff;
-        }
-
-        &.ios h1,
-        &.ios h2,
-        &.ios .subheading {
-            color: #ffffff;
+        ion-toolbar {
+            --background: var(--core-header-toolbar-background) !important;
+            --color: var(--core-header-toolbar-color) !important;
+            --min-height: var(--core-header-toolbar-height);
+            background-color: var(--core-header-toolbar-background) !important;
         }
     }
+}
 
-    ion-back-button,
-    .in-toolbar.button-clear,
-    .in-toolbar.button-solid,
-    .button.button-clear,
-    .button.button-solid {
-        --color: #ffffff;
-        color: #ffffff;
+// 4.3 Collapsible Headers: Eliminate transparent uncollapsed headers across courses, quizzes, assignments, forums
+body:not(.core-iframe-fullscreen) .collapsible-header-page {
+    ion-header {
+        background-color: var(--core-header-toolbar-background) !important;
+    }
+
+    &:not(.collapsible-header-page-is-collapsed) {
+        &:not(.collapsible-header-page-is-frozen) .collapsible-header-collapsed {
+            --core-header-toolbar-background: var(--core-header-toolbar-background) !important;
+            --core-header-buttons-color: var(--core-header-buttons-color) !important;
+            --core-header-toolbar-border-width: 0px;
+            background-color: var(--core-header-toolbar-background) !important;
+        }
+    }
+}
+
+// 4.4 Course Header secondary container styling
+.core-course-header {
+    border-bottom: 1px solid var(--stroke);
+}
+
+// 4.5 Dark Mode Header Overrides
+:root.dark {
+    ion-header {
+        background-color: var(--core-header-toolbar-background);
+
+        ion-toolbar {
+            --background: var(--core-header-toolbar-background);
+            --color: var(--core-header-toolbar-color);
+            background-color: var(--core-header-toolbar-background);
+        }
+
+        ion-title {
+            color: #ffffff;
+
+            h1, h2, .subheading {
+                color: #ffffff;
+            }
+
+            &.ios h1,
+            &.ios h2,
+            &.ios .subheading {
+                color: #ffffff;
+            }
+        }
+
+        ion-buttons ion-button,
+        ion-back-button,
+        .in-toolbar.button-clear,
+        .in-toolbar.button-solid,
+        .button.button-clear,
+        .button.button-solid {
+            --color: #ffffff;
+            color: #ffffff;
+
+            &::part(icon),
+            ion-icon {
+                color: #ffffff;
+            }
+        }
+    }
+
+    ion-modal ion-header {
+        background-color: #0d131f !important;
+
+        ion-toolbar {
+            --background: #0d131f !important;
+            --color: #ffffff !important;
+            background-color: #0d131f !important;
+        }
     }
 }
 
