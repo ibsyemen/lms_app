@@ -1,10 +1,11 @@
 {
-    "name": "moodlemobile",
+    "name": "ibs-lms",
     "version": "5.3.0",
-    "description": "The official app for Moodle.",
+    "description": "تطبيق منصة التعليم الإلكتروني - معهد الدراسات المصرفية (IBS)",
     "author": {
-        "name": "Moodle Pty Ltd.",
-        "email": "mobile@moodle.com"
+        "name": "معهد الدراسات المصرفية - IBS",
+        "email": "info@ibs.edu.ye",
+        "url": "https://ibs.edu.ye"
     },
     "repository": {
         "type": "git",
@@ -30,6 +31,10 @@
         "dev:ios": "ionic cordova run ios",
         "prod:android": "npm run prod --prefix cordova-plugin-moodleapp && NODE_ENV=production ionic cordova run android --prod",
         "prod:ios": "NODE_ENV=production ionic cordova run ios --prod",
+        "build:android": "npm run prod --prefix cordova-plugin-moodleapp && NODE_ENV=production ionic cordova build android --prod --release",
+        "build:android:bundle": "npm run prod --prefix cordova-plugin-moodleapp && NODE_ENV=production ionic cordova build android --prod --release -- --packageType=bundle",
+        "build:android:apk": "npm run prod --prefix cordova-plugin-moodleapp && NODE_ENV=production ionic cordova build android --prod --release -- --packageType=apk",
+        "build:ios": "NODE_ENV=production ionic cordova build ios --prod --release",
         "test": "NODE_ENV=testing gulp && jest --verbose",
         "test:ci": "NODE_ENV=testing gulp && jest -ci --runInBand --verbose",
         "test:watch": "NODE_ENV=testing gulp watch & jest --watch",
@@ -209,7 +214,7 @@
             "cordova-clipboard": {},
             "cordova-plugin-badge": {},
             "cordova-plugin-customurlscheme": {
-                "URL_SCHEME": "moodlemobile",
+                "URL_SCHEME": "ibslms",
                 "ANDROID_SCHEME": " ",
                 "ANDROID_HOST": " ",
                 "ANDROID_PATHPREFIX": "/"

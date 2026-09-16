@@ -81,3 +81,13 @@ Thumbs.db
 /ibs_new_app
 /ibs_new_app.zip
 
+# Signing keys and passwords
+*.keystore
+*.jks
+*.p12
+*.pfx
+build.json
+!build.json.example
+release-signing.properties
+
+

@@ -1,0 +1,19 @@
+{
+    "android": {
+        "release": {
+            "keystore": "release-signing.keystore",
+            "storePassword": "YOUR_KEYSTORE_PASSWORD",
+            "alias": "ibslms",
+            "password": "YOUR_KEY_PASSWORD",
+            "keystoreType": ""
+        }
+    },
+    "ios": {
+        "release": {
+            "codeSignIdentity": "iPhone Distribution",
+            "developmentTeam": "",
+            "packageType": "app-store",
+            "automaticProvisioning": true
+        }
+    }
+}

@@ -1,5 +1,5 @@
 {
-    "app_id": "com.moodle.moodlemobile",
+    "app_id": "ye.edu.ibs.lms",
     "appname": "منصة معهد الدراسات المصرفية - IBS",
     "versioncode": 53000,
     "versionname": "5.3.0",
@@ -68,25 +68,14 @@
         "zh-tw": "正體中文"
     },
     "wsservice": "moodle_mobile_app",
-    "demo_sites": {
-        "student": {
-            "url": "https://school.moodledemo.net",
-            "username": "student",
-            "password": "moodle26"
-        },
-        "teacher": {
-            "url": "https://school.moodledemo.net",
-            "username": "teacher",
-            "password": "moodle26"
-        }
-    },
+    "demo_sites": {},
     "defaultZoomLevel": "none",
     "zoomlevels": {
         "none": 100,
         "medium": 110,
         "high": 120
     },
-    "customurlscheme": "moodlemobile",
+    "customurlscheme": "ibslms",
     "sites": [
         {
             "name": "معهد الدراسات المصرفية",
@@ -97,7 +86,10 @@
     "sitefindersettings": {},
     "onlyallowlistedsites": true,
     "forcedefaultlanguage": false,
-    "privacypolicy": "https://moodle.net/moodle-app-privacy/",
+    "privacypolicy": "https://ibs.edu.ye/privacy",
+    "feedbackFormUrl": false,
+    "a11yStatement": false,
+    "legalDisclaimer": "تطبيق منصة التعليم الإلكتروني الخاص بمعهد الدراسات المصرفية - صنعاء. يعتمد التطبيق على برمجيات مفتوحة المصدر مرخصة بموجب رخصة أباتشي 2.0.",
     "notificoncolor": "#5eccf1",
     "enableanalytics": false,
     "forceColorScheme": "",
@@ -105,8 +97,8 @@
     "showTopLogo": "hidden",
     "ioswebviewscheme": "moodleappfs",
     "appstores": {
-        "android": "com.moodle.moodlemobile",
-        "ios": "id633359593"
+        "android": "ye.edu.ibs.lms",
+        "ios": ""
     },
     "wsrequestqueuelimit": 10,
     "wsrequestqueuedelay": 100,

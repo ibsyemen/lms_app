@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-export const GET_STARTED_URL = 'https://moodle.com';
+export const GET_STARTED_URL = 'https://ibs.edu.ye';
 export const FAQ_QRCODE_INFO_DONE = 'qrcode_info_done';
 export const FAQ_URL_IMAGE_HTML = '<img src="assets/img/login/faq_url.png" role="presentation" alt="">';
 export const FAQ_QRCODE_IMAGE_HTML = '<img src="assets/img/login/faq_qrcode.png" role="presentation" alt="">';
