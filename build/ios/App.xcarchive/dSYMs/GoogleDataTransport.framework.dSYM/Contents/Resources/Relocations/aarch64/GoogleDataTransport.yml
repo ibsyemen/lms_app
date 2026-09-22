@@ -1,0 +1,662 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/abdulrahmanhameed/Library/Developer/Xcode/DerivedData/App-bjvdhbspspmuepbgwpefirktzklu/Build/Intermediates.noindex/ArchiveIntermediates/App/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/GoogleDataTransport.framework/GoogleDataTransport'
+relocations:
+  - { offset: 0x64714, size: 0x8, addend: 0x0, symName: _GoogleDataTransportVersionString, symObjAddr: 0x0, symBinAddr: 0x1BDA0, symSize: 0x0 }
+  - { offset: 0x64749, size: 0x8, addend: 0x0, symName: _GoogleDataTransportVersionNumber, symObjAddr: 0x38, symBinAddr: 0x1BDD8, symSize: 0x0 }
+  - { offset: 0x64793, size: 0x8, addend: 0x0, symName: _gdt_cct_NetworkConnectionInfo_network_type_default, symObjAddr: 0x0, symBinAddr: 0x1BDE0, symSize: 0x0 }
+  - { offset: 0x6483F, size: 0x8, addend: 0x0, symName: _gdt_cct_NetworkConnectionInfo_mobile_subtype_default, symObjAddr: 0x4, symBinAddr: 0x1BDE4, symSize: 0x0 }
+  - { offset: 0x648F7, size: 0x8, addend: 0x0, symName: _gdt_cct_LogRequest_qos_tier_default, symObjAddr: 0x8, symBinAddr: 0x1BDE8, symSize: 0x0 }
+  - { offset: 0x64948, size: 0x8, addend: 0x0, symName: _gdt_cct_QosTierConfiguration_log_source_default, symObjAddr: 0xC, symBinAddr: 0x1BDEC, symSize: 0x0 }
+  - { offset: 0x64963, size: 0x8, addend: 0x0, symName: _gdt_cct_LogEvent_fields, symObjAddr: 0x1B0, symBinAddr: 0x28378, symSize: 0x0 }
+  - { offset: 0x64991, size: 0x8, addend: 0x0, symName: _gdt_cct_NetworkConnectionInfo_fields, symObjAddr: 0x2B0, symBinAddr: 0x28478, symSize: 0x0 }
+  - { offset: 0x649B3, size: 0x8, addend: 0x0, symName: _gdt_cct_MacClientInfo_fields, symObjAddr: 0x10, symBinAddr: 0x1BDF0, symSize: 0x0 }
+  - { offset: 0x649D5, size: 0x8, addend: 0x0, symName: _gdt_cct_IosClientInfo_fields, symObjAddr: 0xB0, symBinAddr: 0x1BE90, symSize: 0x0 }
+  - { offset: 0x649EB, size: 0x8, addend: 0x0, symName: _gdt_cct_ClientInfo_fields, symObjAddr: 0x310, symBinAddr: 0x284D8, symSize: 0x0 }
+  - { offset: 0x64A0D, size: 0x8, addend: 0x0, symName: _gdt_cct_BatchedLogRequest_fields, symObjAddr: 0x390, symBinAddr: 0x28558, symSize: 0x0 }
+  - { offset: 0x64A2F, size: 0x8, addend: 0x0, symName: _gdt_cct_LogRequest_fields, symObjAddr: 0x3D0, symBinAddr: 0x28598, symSize: 0x0 }
+  - { offset: 0x64A51, size: 0x8, addend: 0x0, symName: _gdt_cct_QosTierConfiguration_fields, symObjAddr: 0x4B0, symBinAddr: 0x28678, symSize: 0x0 }
+  - { offset: 0x64A67, size: 0x8, addend: 0x0, symName: _gdt_cct_QosTiersOverride_fields, symObjAddr: 0x510, symBinAddr: 0x286D8, symSize: 0x0 }
+  - { offset: 0x64A7D, size: 0x8, addend: 0x0, symName: _gdt_cct_LogResponse_fields, symObjAddr: 0x570, symBinAddr: 0x28738, symSize: 0x0 }
+  - { offset: 0x64AC9, size: 0x8, addend: 0x0, symName: _gdt_client_metrics_ClientMetrics_fields, symObjAddr: 0x0, symBinAddr: 0x28798, symSize: 0x0 }
+  - { offset: 0x64AF7, size: 0x8, addend: 0x0, symName: _gdt_client_metrics_TimeWindow_fields, symObjAddr: 0x140, symBinAddr: 0x1BF90, symSize: 0x0 }
+  - { offset: 0x64B19, size: 0x8, addend: 0x0, symName: _gdt_client_metrics_GlobalMetrics_fields, symObjAddr: 0xA0, symBinAddr: 0x28838, symSize: 0x0 }
+  - { offset: 0x64B3B, size: 0x8, addend: 0x0, symName: _gdt_client_metrics_StorageMetrics_fields, symObjAddr: 0x1A0, symBinAddr: 0x1BFF0, symSize: 0x0 }
+  - { offset: 0x64B51, size: 0x8, addend: 0x0, symName: _gdt_client_metrics_LogSourceMetrics_fields, symObjAddr: 0xE0, symBinAddr: 0x28878, symSize: 0x0 }
+  - { offset: 0x64B67, size: 0x8, addend: 0x0, symName: _gdt_client_metrics_LogEventDropped_fields, symObjAddr: 0x200, symBinAddr: 0x1C050, symSize: 0x0 }
+  - { offset: 0x64BB3, size: 0x8, addend: 0x0, symName: _gdt_cct_ComplianceData_product_id_origin_default, symObjAddr: 0x0, symBinAddr: 0x1C0B0, symSize: 0x0 }
+  - { offset: 0x64BF9, size: 0x8, addend: 0x0, symName: _gdt_cct_ComplianceData_fields, symObjAddr: 0x8, symBinAddr: 0x288D8, symSize: 0x0 }
+  - { offset: 0x64C5D, size: 0x8, addend: 0x0, symName: _privacy_context_external_ExternalPRequestContext_fields, symObjAddr: 0x0, symBinAddr: 0x1C0B8, symSize: 0x0 }
+  - { offset: 0x64CC1, size: 0x8, addend: 0x0, symName: _privacy_context_external_ExternalPrivacyContext_fields, symObjAddr: 0x0, symBinAddr: 0x28938, symSize: 0x0 }
+  - { offset: 0x64D18, size: 0x8, addend: 0x0, symName: '+[GDTCCTCompressionHelper gzippedData:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x18C }
+  - { offset: 0x64D34, size: 0x8, addend: 0x0, symName: '+[GDTCCTCompressionHelper gzippedData:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x18C }
+  - { offset: 0x64F34, size: 0x8, addend: 0x0, symName: '+[GDTCCTCompressionHelper isGzipped:]', symObjAddr: 0x18C, symBinAddr: 0x418C, symSize: 0x7C }
+  - { offset: 0x65012, size: 0x8, addend: 0x0, symName: _GDTCCTEncodeString, symObjAddr: 0x0, symBinAddr: 0x4208, symSize: 0x40 }
+  - { offset: 0x6502E, size: 0x8, addend: 0x0, symName: _GDTCCTNetworkConnectionInfoNetworkMobileSubtype, symObjAddr: 0xD68, symBinAddr: 0x4F70, symSize: 0xA4 }
+  - { offset: 0x65056, size: 0x8, addend: 0x0, symName: _GDTCCTNetworkConnectionInfoNetworkMobileSubtype.MessageToNetworkSubTypeMessage, symObjAddr: 0x97C8, symBinAddr: 0x32120, symSize: 0x0 }
+  - { offset: 0x6506D, size: 0x8, addend: 0x0, symName: _GDTCCTNetworkConnectionInfoNetworkMobileSubtype.onceToken, symObjAddr: 0x97D0, symBinAddr: 0x32128, symSize: 0x0 }
+  - { offset: 0x653F8, size: 0x8, addend: 0x0, symName: _GDTCCTEncodeString, symObjAddr: 0x0, symBinAddr: 0x4208, symSize: 0x40 }
+  - { offset: 0x65441, size: 0x8, addend: 0x0, symName: _GDTCCTEncodeData, symObjAddr: 0x40, symBinAddr: 0x4248, symSize: 0x6C }
+  - { offset: 0x654A8, size: 0x8, addend: 0x0, symName: _GDTCCTEncodeBatchedLogRequest, symObjAddr: 0xAC, symBinAddr: 0x42B4, symSize: 0xEC }
+  - { offset: 0x656CF, size: 0x8, addend: 0x0, symName: _GDTCCTConstructBatchedLogRequest, symObjAddr: 0x198, symBinAddr: 0x43A0, symSize: 0xE0 }
+  - { offset: 0x65755, size: 0x8, addend: 0x0, symName: ___GDTCCTConstructBatchedLogRequest_block_invoke, symObjAddr: 0x278, symBinAddr: 0x4480, symSize: 0xCC }
+  - { offset: 0x65817, size: 0x8, addend: 0x0, symName: _GDTCCTConstructLogRequest, symObjAddr: 0x344, symBinAddr: 0x454C, symSize: 0x290 }
+  - { offset: 0x65A91, size: 0x8, addend: 0x0, symName: _GDTCCTConstructiOSClientInfo, symObjAddr: 0x880, symBinAddr: 0x4A88, symSize: 0x254 }
+  - { offset: 0x65BA4, size: 0x8, addend: 0x0, symName: _GDTCCTConstructLogEvent, symObjAddr: 0x63C, symBinAddr: 0x4844, symSize: 0x1F4 }
+  - { offset: 0x65C70, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32r, symObjAddr: 0x5D4, symBinAddr: 0x47DC, symSize: 0x10 }
+  - { offset: 0x65C99, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32r, symObjAddr: 0x5E4, symBinAddr: 0x47EC, symSize: 0xC }
+  - { offset: 0x65CB8, size: 0x8, addend: 0x0, symName: _GDTCCTConstructClientInfo, symObjAddr: 0x5F0, symBinAddr: 0x47F8, symSize: 0x4C }
+  - { offset: 0x65DEC, size: 0x8, addend: 0x0, symName: _GDTCCTConstructComplianceData, symObjAddr: 0x830, symBinAddr: 0x4A38, symSize: 0x50 }
+  - { offset: 0x65E35, size: 0x8, addend: 0x0, symName: _GDTCCTConstructMacClientInfo, symObjAddr: 0xAD4, symBinAddr: 0x4CDC, symSize: 0x218 }
+  - { offset: 0x65F37, size: 0x8, addend: 0x0, symName: _GDTCCTConstructNetworkConnectionInfoData, symObjAddr: 0xCEC, symBinAddr: 0x4EF4, symSize: 0x7C }
+  - { offset: 0x65FFC, size: 0x8, addend: 0x0, symName: _GDTCCTNetworkConnectionInfoNetworkMobileSubtype.cold.1, symObjAddr: 0x1348, symBinAddr: 0x186EC, symSize: 0x14 }
+  - { offset: 0x66018, size: 0x8, addend: 0x0, symName: _GDTCCTNetworkConnectionInfoNetworkMobileSubtype.cold.1, symObjAddr: 0x1348, symBinAddr: 0x186EC, symSize: 0x14 }
+  - { offset: 0x6602B, size: 0x8, addend: 0x0, symName: ___GDTCCTNetworkConnectionInfoNetworkMobileSubtype_block_invoke, symObjAddr: 0xE0C, symBinAddr: 0x5014, symSize: 0x3B8 }
+  - { offset: 0x66054, size: 0x8, addend: 0x0, symName: _GDTCCTDecodeLogResponse, symObjAddr: 0x11C4, symBinAddr: 0x53CC, symSize: 0x184 }
+  - { offset: 0x6674C, size: 0x8, addend: 0x0, symName: '+[GDTCCTUploader load]', symObjAddr: 0x0, symBinAddr: 0x5550, symSize: 0xE0 }
+  - { offset: 0x66766, size: 0x8, addend: 0x0, symName: __testServerURL, symObjAddr: 0x6700, symBinAddr: 0x32130, symSize: 0x0 }
+  - { offset: 0x66775, size: 0x8, addend: 0x0, symName: '+[GDTCCTUploader sharedInstance]', symObjAddr: 0xE0, symBinAddr: 0x5630, symSize: 0x44 }
+  - { offset: 0x6679F, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x6708, symBinAddr: 0x32138, symSize: 0x0 }
+  - { offset: 0x667B5, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x6710, symBinAddr: 0x32140, symSize: 0x0 }
+  - { offset: 0x66881, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploader FLLAndCSHAndINTAPIKey]', symObjAddr: 0x648, symBinAddr: 0x5B98, symSize: 0x44 }
+  - { offset: 0x668AB, size: 0x8, addend: 0x0, symName: _FLLAndCSHAndINTAPIKey.defaultServerKey, symObjAddr: 0x6718, symBinAddr: 0x32148, symSize: 0x0 }
+  - { offset: 0x668C1, size: 0x8, addend: 0x0, symName: _FLLAndCSHAndINTAPIKey.onceToken, symObjAddr: 0x6720, symBinAddr: 0x32150, symSize: 0x0 }
+  - { offset: 0x66A02, size: 0x8, addend: 0x0, symName: '+[GDTCCTUploader load]', symObjAddr: 0x0, symBinAddr: 0x5550, symSize: 0xE0 }
+  - { offset: 0x66A7C, size: 0x8, addend: 0x0, symName: '+[GDTCCTUploader sharedInstance].cold.1', symObjAddr: 0x920, symBinAddr: 0x18700, symSize: 0x14 }
+  - { offset: 0x66A98, size: 0x8, addend: 0x0, symName: '+[GDTCCTUploader sharedInstance].cold.1', symObjAddr: 0x920, symBinAddr: 0x18700, symSize: 0x14 }
+  - { offset: 0x66AAA, size: 0x8, addend: 0x0, symName: '___32+[GDTCCTUploader sharedInstance]_block_invoke', symObjAddr: 0x124, symBinAddr: 0x5674, symSize: 0x30 }
+  - { offset: 0x66AD1, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploader init]', symObjAddr: 0x154, symBinAddr: 0x56A4, symSize: 0xB4 }
+  - { offset: 0x66B3F, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploader uploadTarget:withConditions:]', symObjAddr: 0x208, symBinAddr: 0x5758, symSize: 0x294 }
+  - { offset: 0x66CE9, size: 0x8, addend: 0x0, symName: '___46-[GDTCCTUploader uploadTarget:withConditions:]_block_invoke', symObjAddr: 0x49C, symBinAddr: 0x59EC, symSize: 0xE8 }
+  - { offset: 0x66D99, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32w40w, symObjAddr: 0x584, symBinAddr: 0x5AD4, symSize: 0x34 }
+  - { offset: 0x66DC2, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32w40w, symObjAddr: 0x5B8, symBinAddr: 0x5B08, symSize: 0x28 }
+  - { offset: 0x66DE1, size: 0x8, addend: 0x0, symName: '+[GDTCCTUploader setTestServerURL:]', symObjAddr: 0x5E0, symBinAddr: 0x5B30, symSize: 0x30 }
+  - { offset: 0x66E20, size: 0x8, addend: 0x0, symName: '+[GDTCCTUploader testServerURL]', symObjAddr: 0x610, symBinAddr: 0x5B60, symSize: 0x2C }
+  - { offset: 0x66E53, size: 0x8, addend: 0x0, symName: '+[GDTCCTUploader serverURLForTarget:]', symObjAddr: 0x63C, symBinAddr: 0x5B8C, symSize: 0xC }
+  - { offset: 0x66E94, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploader FLLAndCSHAndINTAPIKey].cold.1', symObjAddr: 0x934, symBinAddr: 0x18714, symSize: 0x14 }
+  - { offset: 0x66EB0, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploader FLLAndCSHAndINTAPIKey].cold.1', symObjAddr: 0x934, symBinAddr: 0x18714, symSize: 0x14 }
+  - { offset: 0x66EC2, size: 0x8, addend: 0x0, symName: '___39-[GDTCCTUploader FLLAndCSHAndINTAPIKey]_block_invoke', symObjAddr: 0x68C, symBinAddr: 0x5BDC, symSize: 0x90 }
+  - { offset: 0x66F1F, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploader nextUploadTimeForTarget:]', symObjAddr: 0x71C, symBinAddr: 0x5C6C, symSize: 0xBC }
+  - { offset: 0x66F66, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploader setNextUploadTime:forTarget:]', symObjAddr: 0x7D8, symBinAddr: 0x5D28, symSize: 0xC4 }
+  - { offset: 0x66FB9, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploader APIKeyForTarget:]', symObjAddr: 0x89C, symBinAddr: 0x5DEC, symSize: 0x30 }
+  - { offset: 0x67000, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploader uploadOperationQueue]', symObjAddr: 0x8CC, symBinAddr: 0x5E1C, symSize: 0x8 }
+  - { offset: 0x67037, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploader uploadQueue]', symObjAddr: 0x8D4, symBinAddr: 0x5E24, symSize: 0x8 }
+  - { offset: 0x6706E, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploader nextUploadTimeByTarget]', symObjAddr: 0x8DC, symBinAddr: 0x5E2C, symSize: 0x8 }
+  - { offset: 0x670A5, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploader .cxx_destruct]', symObjAddr: 0x8E4, symBinAddr: 0x5E34, symSize: 0x3C }
+  - { offset: 0x6737F, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation initWithTarget:conditions:uploadURL:queue:storage:metadataProvider:metricsController:]', symObjAddr: 0x0, symBinAddr: 0x5E70, symSize: 0x17C }
+  - { offset: 0x678D1, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation initWithTarget:conditions:uploadURL:queue:storage:metadataProvider:metricsController:]', symObjAddr: 0x0, symBinAddr: 0x5E70, symSize: 0x17C }
+  - { offset: 0x67977, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation uploaderSessionCreateIfNeeded]', symObjAddr: 0x17C, symBinAddr: 0x5FEC, symSize: 0x94 }
+  - { offset: 0x679CD, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation uploadTarget:withConditions:]', symObjAddr: 0x210, symBinAddr: 0x6080, symSize: 0x6F8 }
+  - { offset: 0x67B63, size: 0x8, addend: 0x0, symName: '___53-[GDTCCTUploadOperation uploadTarget:withConditions:]_block_invoke', symObjAddr: 0x908, symBinAddr: 0x6778, symSize: 0x84 }
+  - { offset: 0x67B9E, size: 0x8, addend: 0x0, symName: '___53-[GDTCCTUploadOperation uploadTarget:withConditions:]_block_invoke.6', symObjAddr: 0x9A8, symBinAddr: 0x67FC, symSize: 0x78 }
+  - { offset: 0x67C53, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b48r, symObjAddr: 0xA20, symBinAddr: 0x6874, symSize: 0x44 }
+  - { offset: 0x67C7C, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48r, symObjAddr: 0xA64, symBinAddr: 0x68B8, symSize: 0x34 }
+  - { offset: 0x67C9B, size: 0x8, addend: 0x0, symName: '___53-[GDTCCTUploadOperation uploadTarget:withConditions:]_block_invoke.9', symObjAddr: 0xA98, symBinAddr: 0x68EC, symSize: 0x1C }
+  - { offset: 0x67CEA, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0xAB4, symBinAddr: 0x6908, symSize: 0x8 }
+  - { offset: 0x67D11, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0xABC, symBinAddr: 0x6910, symSize: 0x8 }
+  - { offset: 0x67D30, size: 0x8, addend: 0x0, symName: '___53-[GDTCCTUploadOperation uploadTarget:withConditions:]_block_invoke.11', symObjAddr: 0xAC4, symBinAddr: 0x6918, symSize: 0x10 }
+  - { offset: 0x67D8B, size: 0x8, addend: 0x0, symName: '___53-[GDTCCTUploadOperation uploadTarget:withConditions:]_block_invoke.13', symObjAddr: 0xAD4, symBinAddr: 0x6928, symSize: 0xC }
+  - { offset: 0x67DE6, size: 0x8, addend: 0x0, symName: '___53-[GDTCCTUploadOperation uploadTarget:withConditions:]_block_invoke_2', symObjAddr: 0xAE0, symBinAddr: 0x6934, symSize: 0x8 }
+  - { offset: 0x67E21, size: 0x8, addend: 0x0, symName: '___53-[GDTCCTUploadOperation uploadTarget:withConditions:]_block_invoke_3', symObjAddr: 0xAE8, symBinAddr: 0x693C, symSize: 0x90 }
+  - { offset: 0x67EBF, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0xB78, symBinAddr: 0x69CC, symSize: 0x28 }
+  - { offset: 0x67EE8, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0xBA0, symBinAddr: 0x69F4, symSize: 0x28 }
+  - { offset: 0x67F07, size: 0x8, addend: 0x0, symName: '___53-[GDTCCTUploadOperation uploadTarget:withConditions:]_block_invoke.17', symObjAddr: 0xBC8, symBinAddr: 0x6A1C, symSize: 0x90 }
+  - { offset: 0x67F6A, size: 0x8, addend: 0x0, symName: '___53-[GDTCCTUploadOperation uploadTarget:withConditions:]_block_invoke.20', symObjAddr: 0xC58, symBinAddr: 0x6AAC, symSize: 0x1C }
+  - { offset: 0x67FB9, size: 0x8, addend: 0x0, symName: '___53-[GDTCCTUploadOperation uploadTarget:withConditions:]_block_invoke.22', symObjAddr: 0xC74, symBinAddr: 0x6AC8, symSize: 0x68 }
+  - { offset: 0x6802C, size: 0x8, addend: 0x0, symName: '___53-[GDTCCTUploadOperation uploadTarget:withConditions:]_block_invoke.23', symObjAddr: 0xCDC, symBinAddr: 0x6B30, symSize: 0x4 }
+  - { offset: 0x6805F, size: 0x8, addend: 0x0, symName: '___53-[GDTCCTUploadOperation uploadTarget:withConditions:]_block_invoke_2.26', symObjAddr: 0xCE0, symBinAddr: 0x6B34, symSize: 0x2C }
+  - { offset: 0x680BA, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b, symObjAddr: 0xD0C, symBinAddr: 0x6B60, symSize: 0x34 }
+  - { offset: 0x680E3, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation uploadBatch:toTarget:storage:]', symObjAddr: 0xD40, symBinAddr: 0x6B94, symSize: 0x1F0 }
+  - { offset: 0x6818F, size: 0x8, addend: 0x0, symName: '___54-[GDTCCTUploadOperation uploadBatch:toTarget:storage:]_block_invoke', symObjAddr: 0xF30, symBinAddr: 0x6D84, symSize: 0x70 }
+  - { offset: 0x68212, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s, symObjAddr: 0xFA0, symBinAddr: 0x6DF4, symSize: 0x30 }
+  - { offset: 0x6823B, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s, symObjAddr: 0xFD0, symBinAddr: 0x6E24, symSize: 0x30 }
+  - { offset: 0x6825A, size: 0x8, addend: 0x0, symName: '___54-[GDTCCTUploadOperation uploadBatch:toTarget:storage:]_block_invoke.28', symObjAddr: 0x1000, symBinAddr: 0x6E54, symSize: 0xC8 }
+  - { offset: 0x682C9, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation processResponse:forBatch:storage:]', symObjAddr: 0x10C8, symBinAddr: 0x6F1C, symSize: 0x238 }
+  - { offset: 0x683D0, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation sendURLRequestWithBatch:target:]', symObjAddr: 0x1300, symBinAddr: 0x7154, symSize: 0x270 }
+  - { offset: 0x68492, size: 0x8, addend: 0x0, symName: '___56-[GDTCCTUploadOperation sendURLRequestWithBatch:target:]_block_invoke', symObjAddr: 0x1570, symBinAddr: 0x73C4, symSize: 0x174 }
+  - { offset: 0x68575, size: 0x8, addend: 0x0, symName: '___56-[GDTCCTUploadOperation sendURLRequestWithBatch:target:]_block_invoke.40', symObjAddr: 0x16E4, symBinAddr: 0x7538, symSize: 0x6C }
+  - { offset: 0x685CC, size: 0x8, addend: 0x0, symName: '___56-[GDTCCTUploadOperation sendURLRequestWithBatch:target:]_block_invoke.42', symObjAddr: 0x1750, symBinAddr: 0x75A4, symSize: 0x4C }
+  - { offset: 0x68623, size: 0x8, addend: 0x0, symName: '___56-[GDTCCTUploadOperation sendURLRequestWithBatch:target:]_block_invoke.44', symObjAddr: 0x179C, symBinAddr: 0x75F0, symSize: 0x4C }
+  - { offset: 0x6867A, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation updateNextUploadTimeWithResponse:forTarget:]', symObjAddr: 0x17E8, symBinAddr: 0x763C, symSize: 0x284 }
+  - { offset: 0x68919, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation isReadyToUploadTarget:conditions:]', symObjAddr: 0x1A6C, symBinAddr: 0x78C0, symSize: 0xE4 }
+  - { offset: 0x689A4, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation genericRejectedPromiseErrorWithReason:]', symObjAddr: 0x1B50, symBinAddr: 0x79A4, symSize: 0xD8 }
+  - { offset: 0x689E9, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation readyToUploadTarget:conditions:]', symObjAddr: 0x1C28, symBinAddr: 0x7A7C, symSize: 0x128 }
+  - { offset: 0x68ABD, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation constructRequestProtoWithEvents:]', symObjAddr: 0x1D50, symBinAddr: 0x7BA4, symSize: 0x108 }
+  - { offset: 0x68F31, size: 0x8, addend: 0x0, symName: '___57-[GDTCCTUploadOperation constructRequestProtoWithEvents:]_block_invoke', symObjAddr: 0x1E58, symBinAddr: 0x7CAC, symSize: 0xC8 }
+  - { offset: 0x68FAD, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation constructRequestWithURL:forTarget:data:]', symObjAddr: 0x1F20, symBinAddr: 0x7D74, symSize: 0x1F0 }
+  - { offset: 0x69066, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation eventSelectorTarget:withConditions:]', symObjAddr: 0x2110, symBinAddr: 0x7F64, symSize: 0x250 }
+  - { offset: 0x690CD, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation batchByAddingMetricsEventToBatch:forTarget:]', symObjAddr: 0x2360, symBinAddr: 0x81B4, symSize: 0x1C4 }
+  - { offset: 0x6916B, size: 0x8, addend: 0x0, symName: '___68-[GDTCCTUploadOperation batchByAddingMetricsEventToBatch:forTarget:]_block_invoke', symObjAddr: 0x2524, symBinAddr: 0x8378, symSize: 0xF4 }
+  - { offset: 0x69215, size: 0x8, addend: 0x0, symName: '___68-[GDTCCTUploadOperation batchByAddingMetricsEventToBatch:forTarget:]_block_invoke.114', symObjAddr: 0x2618, symBinAddr: 0x846C, symSize: 0x28 }
+  - { offset: 0x69264, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]', symObjAddr: 0x2640, symBinAddr: 0x8494, symSize: 0x15C }
+  - { offset: 0x6933B, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation isFinished]', symObjAddr: 0x279C, symBinAddr: 0x85F0, symSize: 0x48 }
+  - { offset: 0x69373, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation isExecuting]', symObjAddr: 0x27E4, symBinAddr: 0x8638, symSize: 0x48 }
+  - { offset: 0x693AB, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation isAsynchronous]', symObjAddr: 0x282C, symBinAddr: 0x8680, symSize: 0x8 }
+  - { offset: 0x693DF, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation startOperation]', symObjAddr: 0x2834, symBinAddr: 0x8688, symSize: 0xA4 }
+  - { offset: 0x69413, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation finishOperation]', symObjAddr: 0x28D8, symBinAddr: 0x872C, symSize: 0xA4 }
+  - { offset: 0x69447, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation start]', symObjAddr: 0x297C, symBinAddr: 0x87D0, symSize: 0x60 }
+  - { offset: 0x69496, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation cancel]', symObjAddr: 0x29DC, symBinAddr: 0x8830, symSize: 0x94 }
+  - { offset: 0x694CA, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation setExecuting:]', symObjAddr: 0x2A70, symBinAddr: 0x88C4, symSize: 0x10 }
+  - { offset: 0x69506, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation setFinished:]', symObjAddr: 0x2A80, symBinAddr: 0x88D4, symSize: 0x10 }
+  - { offset: 0x69542, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation uploadAttempted]', symObjAddr: 0x2A90, symBinAddr: 0x88E4, symSize: 0x10 }
+  - { offset: 0x69579, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation setUploadAttempted:]', symObjAddr: 0x2AA0, symBinAddr: 0x88F4, symSize: 0x10 }
+  - { offset: 0x695B4, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation uploaderQueue]', symObjAddr: 0x2AB0, symBinAddr: 0x8904, symSize: 0x10 }
+  - { offset: 0x695EB, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation currentTask]', symObjAddr: 0x2AC0, symBinAddr: 0x8914, symSize: 0x10 }
+  - { offset: 0x69622, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation target]', symObjAddr: 0x2AD0, symBinAddr: 0x8924, symSize: 0x10 }
+  - { offset: 0x69659, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation conditions]', symObjAddr: 0x2AE0, symBinAddr: 0x8934, symSize: 0x10 }
+  - { offset: 0x69690, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation uploadURL]', symObjAddr: 0x2AF0, symBinAddr: 0x8944, symSize: 0x10 }
+  - { offset: 0x696C7, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation storage]', symObjAddr: 0x2B00, symBinAddr: 0x8954, symSize: 0x10 }
+  - { offset: 0x696FE, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation metadataProvider]', symObjAddr: 0x2B10, symBinAddr: 0x8964, symSize: 0x10 }
+  - { offset: 0x69735, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation metricsController]', symObjAddr: 0x2B20, symBinAddr: 0x8974, symSize: 0x10 }
+  - { offset: 0x6976C, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation uploaderSession]', symObjAddr: 0x2B30, symBinAddr: 0x8984, symSize: 0x10 }
+  - { offset: 0x697A3, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation setUploaderSession:]', symObjAddr: 0x2B40, symBinAddr: 0x8994, symSize: 0x40 }
+  - { offset: 0x697E4, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation currentMetrics]', symObjAddr: 0x2B80, symBinAddr: 0x89D4, symSize: 0x10 }
+  - { offset: 0x6981B, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation setCurrentMetrics:]', symObjAddr: 0x2B90, symBinAddr: 0x89E4, symSize: 0x40 }
+  - { offset: 0x6985C, size: 0x8, addend: 0x0, symName: '-[GDTCCTUploadOperation .cxx_destruct]', symObjAddr: 0x2BD0, symBinAddr: 0x8A24, symSize: 0xB8 }
+  - { offset: 0x6A5FE, size: 0x8, addend: 0x0, symName: _GDTCORAssertionBlockToRunInstead, symObjAddr: 0x0, symBinAddr: 0x8ADC, symSize: 0x38 }
+  - { offset: 0x6A6A4, size: 0x8, addend: 0x0, symName: _GDTCORAssertionBlockToRunInstead, symObjAddr: 0x0, symBinAddr: 0x8ADC, symSize: 0x38 }
+  - { offset: 0x6A72F, size: 0x8, addend: 0x0, symName: _GDTCORAssertionBlockToRunInstead.cold.1, symObjAddr: 0x38, symBinAddr: 0x18728, symSize: 0x88 }
+  - { offset: 0x6A7E3, size: 0x8, addend: 0x0, symName: '-[GDTCORClock init]', symObjAddr: 0x0, symBinAddr: 0x8B14, symSize: 0xE4 }
+  - { offset: 0x6A8D2, size: 0x8, addend: 0x0, symName: '-[GDTCORClock init]', symObjAddr: 0x0, symBinAddr: 0x8B14, symSize: 0xE4 }
+  - { offset: 0x6A990, size: 0x8, addend: 0x0, symName: _KernelBootTimeInNanoseconds, symObjAddr: 0xE4, symBinAddr: 0x8BF8, symSize: 0x9C }
+  - { offset: 0x6AAA5, size: 0x8, addend: 0x0, symName: '+[GDTCORClock snapshot]', symObjAddr: 0x180, symBinAddr: 0x8C94, symSize: 0x20 }
+  - { offset: 0x6AAD8, size: 0x8, addend: 0x0, symName: '+[GDTCORClock clockSnapshotInTheFuture:]', symObjAddr: 0x1A0, symBinAddr: 0x8CB4, symSize: 0x2C }
+  - { offset: 0x6AB2F, size: 0x8, addend: 0x0, symName: '-[GDTCORClock isAfter:]', symObjAddr: 0x1CC, symBinAddr: 0x8CE0, symSize: 0x38 }
+  - { offset: 0x6ABB5, size: 0x8, addend: 0x0, symName: '-[GDTCORClock uptimeMilliseconds]', symObjAddr: 0x204, symBinAddr: 0x8D18, symSize: 0x2C }
+  - { offset: 0x6ABEC, size: 0x8, addend: 0x0, symName: '-[GDTCORClock hash]', symObjAddr: 0x230, symBinAddr: 0x8D44, symSize: 0xDC }
+  - { offset: 0x6AC23, size: 0x8, addend: 0x0, symName: '-[GDTCORClock isEqual:]', symObjAddr: 0x30C, symBinAddr: 0x8E20, symSize: 0x58 }
+  - { offset: 0x6AC6A, size: 0x8, addend: 0x0, symName: '+[GDTCORClock supportsSecureCoding]', symObjAddr: 0x364, symBinAddr: 0x8E78, symSize: 0x8 }
+  - { offset: 0x6AC9D, size: 0x8, addend: 0x0, symName: '-[GDTCORClock initWithCoder:]', symObjAddr: 0x36C, symBinAddr: 0x8E80, symSize: 0xB0 }
+  - { offset: 0x6ACE4, size: 0x8, addend: 0x0, symName: '-[GDTCORClock encodeWithCoder:]', symObjAddr: 0x41C, symBinAddr: 0x8F30, symSize: 0x88 }
+  - { offset: 0x6AD27, size: 0x8, addend: 0x0, symName: '-[GDTCORClock kernelBootTime]', symObjAddr: 0x4A4, symBinAddr: 0x8FB8, symSize: 0x4 }
+  - { offset: 0x6AD5C, size: 0x8, addend: 0x0, symName: '-[GDTCORClock uptime]', symObjAddr: 0x4A8, symBinAddr: 0x8FBC, symSize: 0x4 }
+  - { offset: 0x6AD91, size: 0x8, addend: 0x0, symName: '-[GDTCORClock timeMillis]', symObjAddr: 0x4AC, symBinAddr: 0x8FC0, symSize: 0x8 }
+  - { offset: 0x6ADC8, size: 0x8, addend: 0x0, symName: '-[GDTCORClock timezoneOffsetSeconds]', symObjAddr: 0x4B4, symBinAddr: 0x8FC8, symSize: 0x8 }
+  - { offset: 0x6ADFF, size: 0x8, addend: 0x0, symName: '-[GDTCORClock kernelBootTimeNanoseconds]', symObjAddr: 0x4BC, symBinAddr: 0x8FD0, symSize: 0x8 }
+  - { offset: 0x6AE36, size: 0x8, addend: 0x0, symName: '-[GDTCORClock uptimeNanoseconds]', symObjAddr: 0x4C4, symBinAddr: 0x8FD8, symSize: 0x8 }
+  - { offset: 0x6AF25, size: 0x8, addend: 0x0, symName: _GDTCORMessageCodeEnumToString, symObjAddr: 0x0, symBinAddr: 0x8FE0, symSize: 0x40 }
+  - { offset: 0x6AF3F, size: 0x8, addend: 0x0, symName: _GDTCORConsoleLoggerLoggingLevel, symObjAddr: 0x1E8, symBinAddr: 0x31DA8, symSize: 0x0 }
+  - { offset: 0x6AFFE, size: 0x8, addend: 0x0, symName: _GDTCORMessageCodeEnumToString, symObjAddr: 0x0, symBinAddr: 0x8FE0, symSize: 0x40 }
+  - { offset: 0x6B042, size: 0x8, addend: 0x0, symName: _GDTCORLog, symObjAddr: 0x40, symBinAddr: 0x9020, symSize: 0xC4 }
+  - { offset: 0x6B10F, size: 0x8, addend: 0x0, symName: _GDTCORLogAssert, symObjAddr: 0x104, symBinAddr: 0x90E4, symSize: 0xE0 }
+  - { offset: 0x6B212, size: 0x8, addend: 0x0, symName: '-[GDTCORDirectorySizeTracker initWithDirectoryPath:]', symObjAddr: 0x0, symBinAddr: 0x91C4, symSize: 0x74 }
+  - { offset: 0x6B27A, size: 0x8, addend: 0x0, symName: '-[GDTCORDirectorySizeTracker initWithDirectoryPath:]', symObjAddr: 0x0, symBinAddr: 0x91C4, symSize: 0x74 }
+  - { offset: 0x6B2C1, size: 0x8, addend: 0x0, symName: '-[GDTCORDirectorySizeTracker directoryContentSize]', symObjAddr: 0x74, symBinAddr: 0x9238, symSize: 0x98 }
+  - { offset: 0x6B2F8, size: 0x8, addend: 0x0, symName: '-[GDTCORDirectorySizeTracker fileWasAddedAtPath:withSize:]', symObjAddr: 0x10C, symBinAddr: 0x92D0, symSize: 0xC0 }
+  - { offset: 0x6B34B, size: 0x8, addend: 0x0, symName: '-[GDTCORDirectorySizeTracker fileWasRemovedAtPath:withSize:]', symObjAddr: 0x1CC, symBinAddr: 0x9390, symSize: 0xC0 }
+  - { offset: 0x6B39E, size: 0x8, addend: 0x0, symName: '-[GDTCORDirectorySizeTracker resetCachedSize]', symObjAddr: 0x28C, symBinAddr: 0x9450, symSize: 0x8 }
+  - { offset: 0x6B3CF, size: 0x8, addend: 0x0, symName: '-[GDTCORDirectorySizeTracker calculateDirectoryContentSize]', symObjAddr: 0x294, symBinAddr: 0x9458, symSize: 0x23C }
+  - { offset: 0x6B484, size: 0x8, addend: 0x0, symName: '___59-[GDTCORDirectorySizeTracker calculateDirectoryContentSize]_block_invoke', symObjAddr: 0x4D0, symBinAddr: 0x9694, symSize: 0x8 }
+  - { offset: 0x6B4C7, size: 0x8, addend: 0x0, symName: '-[GDTCORDirectorySizeTracker fileSizeAtURL:]', symObjAddr: 0x4D8, symBinAddr: 0x969C, symSize: 0x40 }
+  - { offset: 0x6B51A, size: 0x8, addend: 0x0, symName: '-[GDTCORDirectorySizeTracker directoryPath]', symObjAddr: 0x518, symBinAddr: 0x96DC, symSize: 0x8 }
+  - { offset: 0x6B551, size: 0x8, addend: 0x0, symName: '-[GDTCORDirectorySizeTracker cachedSizeBytes]', symObjAddr: 0x520, symBinAddr: 0x96E4, symSize: 0x8 }
+  - { offset: 0x6B588, size: 0x8, addend: 0x0, symName: '-[GDTCORDirectorySizeTracker setCachedSizeBytes:]', symObjAddr: 0x528, symBinAddr: 0x96EC, symSize: 0x30 }
+  - { offset: 0x6B5C9, size: 0x8, addend: 0x0, symName: '-[GDTCORDirectorySizeTracker .cxx_destruct]', symObjAddr: 0x558, symBinAddr: 0x971C, symSize: 0x30 }
+  - { offset: 0x6B756, size: 0x8, addend: 0x0, symName: '+[GDTCOREndpoints uploadURLs]', symObjAddr: 0x0, symBinAddr: 0x974C, symSize: 0x8C }
+  - { offset: 0x6B764, size: 0x8, addend: 0x0, symName: '+[GDTCOREndpoints uploadURLs]', symObjAddr: 0x0, symBinAddr: 0x974C, symSize: 0x8C }
+  - { offset: 0x6B78E, size: 0x8, addend: 0x0, symName: _uploadURLs.CCTServerURL, symObjAddr: 0x2C98, symBinAddr: 0x32158, symSize: 0x0 }
+  - { offset: 0x6B7A4, size: 0x8, addend: 0x0, symName: _uploadURLs.CCTOnceToken, symObjAddr: 0x2CA0, symBinAddr: 0x32160, symSize: 0x0 }
+  - { offset: 0x6B7BA, size: 0x8, addend: 0x0, symName: _uploadURLs.FLLServerURL, symObjAddr: 0x2CA8, symBinAddr: 0x32168, symSize: 0x0 }
+  - { offset: 0x6B7D0, size: 0x8, addend: 0x0, symName: _uploadURLs.FLLOnceToken, symObjAddr: 0x2CB0, symBinAddr: 0x32170, symSize: 0x0 }
+  - { offset: 0x6B7E6, size: 0x8, addend: 0x0, symName: _uploadURLs.CSHServerURL, symObjAddr: 0x2CB8, symBinAddr: 0x32178, symSize: 0x0 }
+  - { offset: 0x6B7FC, size: 0x8, addend: 0x0, symName: _uploadURLs.CSHOnceToken, symObjAddr: 0x2CC0, symBinAddr: 0x32180, symSize: 0x0 }
+  - { offset: 0x6B812, size: 0x8, addend: 0x0, symName: _uploadURLs.uploadURLs, symObjAddr: 0x2CC8, symBinAddr: 0x32188, symSize: 0x0 }
+  - { offset: 0x6B828, size: 0x8, addend: 0x0, symName: _uploadURLs.URLOnceToken, symObjAddr: 0x2CD0, symBinAddr: 0x32190, symSize: 0x0 }
+  - { offset: 0x6B93F, size: 0x8, addend: 0x0, symName: '+[GDTCOREndpoints uploadURLs].cold.1', symObjAddr: 0x4FC, symBinAddr: 0x187B0, symSize: 0x14 }
+  - { offset: 0x6B95B, size: 0x8, addend: 0x0, symName: '+[GDTCOREndpoints uploadURLs].cold.1', symObjAddr: 0x4FC, symBinAddr: 0x187B0, symSize: 0x14 }
+  - { offset: 0x6B96D, size: 0x8, addend: 0x0, symName: '+[GDTCOREndpoints uploadURLs].cold.2', symObjAddr: 0x510, symBinAddr: 0x187C4, symSize: 0x14 }
+  - { offset: 0x6B989, size: 0x8, addend: 0x0, symName: '+[GDTCOREndpoints uploadURLs].cold.2', symObjAddr: 0x510, symBinAddr: 0x187C4, symSize: 0x14 }
+  - { offset: 0x6B99B, size: 0x8, addend: 0x0, symName: '+[GDTCOREndpoints uploadURLs].cold.3', symObjAddr: 0x524, symBinAddr: 0x187D8, symSize: 0x14 }
+  - { offset: 0x6B9B7, size: 0x8, addend: 0x0, symName: '+[GDTCOREndpoints uploadURLs].cold.3', symObjAddr: 0x524, symBinAddr: 0x187D8, symSize: 0x14 }
+  - { offset: 0x6B9C9, size: 0x8, addend: 0x0, symName: '+[GDTCOREndpoints uploadURLs].cold.4', symObjAddr: 0x538, symBinAddr: 0x187EC, symSize: 0x14 }
+  - { offset: 0x6B9E5, size: 0x8, addend: 0x0, symName: '+[GDTCOREndpoints uploadURLs].cold.4', symObjAddr: 0x538, symBinAddr: 0x187EC, symSize: 0x14 }
+  - { offset: 0x6B9F7, size: 0x8, addend: 0x0, symName: '___29+[GDTCOREndpoints uploadURLs]_block_invoke', symObjAddr: 0x8C, symBinAddr: 0x97D8, symSize: 0xD4 }
+  - { offset: 0x6BA54, size: 0x8, addend: 0x0, symName: '___29+[GDTCOREndpoints uploadURLs]_block_invoke_2', symObjAddr: 0x160, symBinAddr: 0x98AC, symSize: 0xD8 }
+  - { offset: 0x6BAB1, size: 0x8, addend: 0x0, symName: '___29+[GDTCOREndpoints uploadURLs]_block_invoke_3', symObjAddr: 0x238, symBinAddr: 0x9984, symSize: 0xD4 }
+  - { offset: 0x6BB0E, size: 0x8, addend: 0x0, symName: '___29+[GDTCOREndpoints uploadURLs]_block_invoke_4', symObjAddr: 0x30C, symBinAddr: 0x9A58, symSize: 0x174 }
+  - { offset: 0x6BB35, size: 0x8, addend: 0x0, symName: '+[GDTCOREndpoints uploadURLForTarget:]', symObjAddr: 0x480, symBinAddr: 0x9BCC, symSize: 0x7C }
+  - { offset: 0x6BD7E, size: 0x8, addend: 0x0, symName: '+[GDTCOREvent nextEventID]', symObjAddr: 0x0, symBinAddr: 0x9C48, symSize: 0x7C }
+  - { offset: 0x6C0C2, size: 0x8, addend: 0x0, symName: '+[GDTCOREvent nextEventID]', symObjAddr: 0x0, symBinAddr: 0x9C48, symSize: 0x7C }
+  - { offset: 0x6C0F5, size: 0x8, addend: 0x0, symName: '-[GDTCOREvent initWithMappingID:productData:target:]', symObjAddr: 0x7C, symBinAddr: 0x9CC4, symSize: 0x158 }
+  - { offset: 0x6C1A6, size: 0x8, addend: 0x0, symName: '-[GDTCOREvent initWithMappingID:target:]', symObjAddr: 0x1D4, symBinAddr: 0x9E1C, symSize: 0xC }
+  - { offset: 0x6C1F9, size: 0x8, addend: 0x0, symName: '-[GDTCOREvent copy]', symObjAddr: 0x1E0, symBinAddr: 0x9E28, symSize: 0xAC }
+  - { offset: 0x6C25B, size: 0x8, addend: 0x0, symName: '-[GDTCOREvent hash]', symObjAddr: 0x28C, symBinAddr: 0x9ED4, symSize: 0x84 }
+  - { offset: 0x6C2E2, size: 0x8, addend: 0x0, symName: '-[GDTCOREvent isEqual:]', symObjAddr: 0x310, symBinAddr: 0x9F58, symSize: 0x58 }
+  - { offset: 0x6C329, size: 0x8, addend: 0x0, symName: '-[GDTCOREvent setDataObject:]', symObjAddr: 0x368, symBinAddr: 0x9FB0, symSize: 0x6C }
+  - { offset: 0x6C36C, size: 0x8, addend: 0x0, symName: '+[GDTCOREvent supportsSecureCoding]', symObjAddr: 0x3D4, symBinAddr: 0xA01C, symSize: 0x8 }
+  - { offset: 0x6C39F, size: 0x8, addend: 0x0, symName: '-[GDTCOREvent initWithCoder:]', symObjAddr: 0x3DC, symBinAddr: 0xA024, symSize: 0x250 }
+  - { offset: 0x6C3E6, size: 0x8, addend: 0x0, symName: '-[GDTCOREvent encodeWithCoder:]', symObjAddr: 0x62C, symBinAddr: 0xA274, symSize: 0x108 }
+  - { offset: 0x6C429, size: 0x8, addend: 0x0, symName: '-[GDTCOREvent eventID]', symObjAddr: 0x734, symBinAddr: 0xA37C, symSize: 0x8 }
+  - { offset: 0x6C460, size: 0x8, addend: 0x0, symName: '-[GDTCOREvent setEventID:]', symObjAddr: 0x73C, symBinAddr: 0xA384, symSize: 0x30 }
+  - { offset: 0x6C4A1, size: 0x8, addend: 0x0, symName: '-[GDTCOREvent mappingID]', symObjAddr: 0x76C, symBinAddr: 0xA3B4, symSize: 0x8 }
+  - { offset: 0x6C4D8, size: 0x8, addend: 0x0, symName: '-[GDTCOREvent target]', symObjAddr: 0x774, symBinAddr: 0xA3BC, symSize: 0x8 }
+  - { offset: 0x6C50F, size: 0x8, addend: 0x0, symName: '-[GDTCOREvent dataObject]', symObjAddr: 0x77C, symBinAddr: 0xA3C4, symSize: 0x8 }
+  - { offset: 0x6C546, size: 0x8, addend: 0x0, symName: '-[GDTCOREvent serializedDataObjectBytes]', symObjAddr: 0x784, symBinAddr: 0xA3CC, symSize: 0x8 }
+  - { offset: 0x6C57D, size: 0x8, addend: 0x0, symName: '-[GDTCOREvent qosTier]', symObjAddr: 0x78C, symBinAddr: 0xA3D4, symSize: 0x8 }
+  - { offset: 0x6C5B4, size: 0x8, addend: 0x0, symName: '-[GDTCOREvent setQosTier:]', symObjAddr: 0x794, symBinAddr: 0xA3DC, symSize: 0x8 }
+  - { offset: 0x6C5F1, size: 0x8, addend: 0x0, symName: '-[GDTCOREvent clockSnapshot]', symObjAddr: 0x79C, symBinAddr: 0xA3E4, symSize: 0x8 }
+  - { offset: 0x6C628, size: 0x8, addend: 0x0, symName: '-[GDTCOREvent setClockSnapshot:]', symObjAddr: 0x7A4, symBinAddr: 0xA3EC, symSize: 0x30 }
+  - { offset: 0x6C669, size: 0x8, addend: 0x0, symName: '-[GDTCOREvent expirationDate]', symObjAddr: 0x7D4, symBinAddr: 0xA41C, symSize: 0x8 }
+  - { offset: 0x6C6A0, size: 0x8, addend: 0x0, symName: '-[GDTCOREvent setExpirationDate:]', symObjAddr: 0x7DC, symBinAddr: 0xA424, symSize: 0x30 }
+  - { offset: 0x6C6E1, size: 0x8, addend: 0x0, symName: '-[GDTCOREvent customBytes]', symObjAddr: 0x80C, symBinAddr: 0xA454, symSize: 0x8 }
+  - { offset: 0x6C718, size: 0x8, addend: 0x0, symName: '-[GDTCOREvent setCustomBytes:]', symObjAddr: 0x814, symBinAddr: 0xA45C, symSize: 0x30 }
+  - { offset: 0x6C759, size: 0x8, addend: 0x0, symName: '-[GDTCOREvent productData]', symObjAddr: 0x844, symBinAddr: 0xA48C, symSize: 0x8 }
+  - { offset: 0x6C790, size: 0x8, addend: 0x0, symName: '-[GDTCOREvent .cxx_destruct]', symObjAddr: 0x84C, symBinAddr: 0xA494, symSize: 0x78 }
+  - { offset: 0x6C84D, size: 0x8, addend: 0x0, symName: '-[GDTCOREvent(GDTCCTSupport) setNeedsNetworkConnectionInfoPopulated:]', symObjAddr: 0x0, symBinAddr: 0xA50C, symSize: 0x3B4 }
+  - { offset: 0x6C867, size: 0x8, addend: 0x0, symName: _GDTCCTNeedsNetworkConnectionInfo, symObjAddr: 0x12E8, symBinAddr: 0x28F18, symSize: 0x0 }
+  - { offset: 0x6C887, size: 0x8, addend: 0x0, symName: _GDTCCTNetworkConnectionInfo, symObjAddr: 0x12F0, symBinAddr: 0x28F20, symSize: 0x0 }
+  - { offset: 0x6C89D, size: 0x8, addend: 0x0, symName: _GDTCCTEventCodeInfo, symObjAddr: 0x12F8, symBinAddr: 0x28F28, symSize: 0x0 }
+  - { offset: 0x6C9B5, size: 0x8, addend: 0x0, symName: '-[GDTCOREvent(GDTCCTSupport) setNeedsNetworkConnectionInfoPopulated:]', symObjAddr: 0x0, symBinAddr: 0xA50C, symSize: 0x3B4 }
+  - { offset: 0x6CB25, size: 0x8, addend: 0x0, symName: '-[GDTCOREvent(GDTCCTSupport) needsNetworkConnectionInfoPopulated]', symObjAddr: 0x3B4, symBinAddr: 0xA8C0, symSize: 0x13C }
+  - { offset: 0x6CBB5, size: 0x8, addend: 0x0, symName: '-[GDTCOREvent(GDTCCTSupport) setNetworkConnectionInfoData:]', symObjAddr: 0x4F0, symBinAddr: 0xA9FC, symSize: 0x228 }
+  - { offset: 0x6CCA6, size: 0x8, addend: 0x0, symName: '-[GDTCOREvent(GDTCCTSupport) networkConnectionInfoData]', symObjAddr: 0x718, symBinAddr: 0xAC24, symSize: 0x198 }
+  - { offset: 0x6CD71, size: 0x8, addend: 0x0, symName: '-[GDTCOREvent(GDTCCTSupport) eventCode]', symObjAddr: 0x8B0, symBinAddr: 0xADBC, symSize: 0x1BC }
+  - { offset: 0x6CE4C, size: 0x8, addend: 0x0, symName: '-[GDTCOREvent(GDTCCTSupport) setEventCode:]', symObjAddr: 0xA6C, symBinAddr: 0xAF78, symSize: 0x328 }
+  - { offset: 0x6D0E1, size: 0x8, addend: 0x0, symName: '+[GDTCOREvent(GDTMetricsSupport) eventWithMetrics:forTarget:]', symObjAddr: 0x0, symBinAddr: 0xB2A0, symSize: 0x68 }
+  - { offset: 0x6D15E, size: 0x8, addend: 0x0, symName: '+[GDTCOREvent(GDTMetricsSupport) eventWithMetrics:forTarget:]', symObjAddr: 0x0, symBinAddr: 0xB2A0, symSize: 0x68 }
+  - { offset: 0x6D386, size: 0x8, addend: 0x0, symName: '+[GDTCORFlatFileStorage load]', symObjAddr: 0x0, symBinAddr: 0xB308, symSize: 0x18C }
+  - { offset: 0x6D3AA, size: 0x8, addend: 0x0, symName: _kGDTCOREventComponentsEventIDKey, symObjAddr: 0x5838, symBinAddr: 0x28F30, symSize: 0x0 }
+  - { offset: 0x6D3C0, size: 0x8, addend: 0x0, symName: _kGDTCOREventComponentsQoSTierKey, symObjAddr: 0x5840, symBinAddr: 0x28F38, symSize: 0x0 }
+  - { offset: 0x6D3D6, size: 0x8, addend: 0x0, symName: _kGDTCOREventComponentsMappingIDKey, symObjAddr: 0x5848, symBinAddr: 0x28F40, symSize: 0x0 }
+  - { offset: 0x6D3EC, size: 0x8, addend: 0x0, symName: _kGDTCOREventComponentsExpirationKey, symObjAddr: 0x5850, symBinAddr: 0x28F48, symSize: 0x0 }
+  - { offset: 0x6D402, size: 0x8, addend: 0x0, symName: _kGDTCORBatchComponentsTargetKey, symObjAddr: 0x5858, symBinAddr: 0x28F50, symSize: 0x0 }
+  - { offset: 0x6D418, size: 0x8, addend: 0x0, symName: _kGDTCORBatchComponentsBatchIDKey, symObjAddr: 0x5860, symBinAddr: 0x28F58, symSize: 0x0 }
+  - { offset: 0x6D42E, size: 0x8, addend: 0x0, symName: _kGDTCORBatchComponentsExpirationKey, symObjAddr: 0x5868, symBinAddr: 0x28F60, symSize: 0x0 }
+  - { offset: 0x6D444, size: 0x8, addend: 0x0, symName: _GDTCORFlatFileStorageErrorDomain, symObjAddr: 0x5870, symBinAddr: 0x28F68, symSize: 0x0 }
+  - { offset: 0x6D45A, size: 0x8, addend: 0x0, symName: _kGDTCORFlatFileStorageSizeLimit, symObjAddr: 0x5D38, symBinAddr: 0x1C238, symSize: 0x0 }
+  - { offset: 0x6D470, size: 0x8, addend: 0x0, symName: '+[GDTCORFlatFileStorage sharedInstance]', symObjAddr: 0x18C, symBinAddr: 0xB494, symSize: 0x44 }
+  - { offset: 0x6D49A, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedStorage, symObjAddr: 0x18468, symBinAddr: 0x32198, symSize: 0x0 }
+  - { offset: 0x6D4B0, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x18470, symBinAddr: 0x321A0, symSize: 0x0 }
+  - { offset: 0x6D661, size: 0x8, addend: 0x0, symName: '+[GDTCORFlatFileStorage eventDataStoragePath]', symObjAddr: 0x33A0, symBinAddr: 0xE5F0, symSize: 0xDC }
+  - { offset: 0x6D68D, size: 0x8, addend: 0x0, symName: _eventDataStoragePath.eventDataPath, symObjAddr: 0x18478, symBinAddr: 0x321A8, symSize: 0x0 }
+  - { offset: 0x6D6A4, size: 0x8, addend: 0x0, symName: _eventDataStoragePath.onceToken, symObjAddr: 0x18480, symBinAddr: 0x321B0, symSize: 0x0 }
+  - { offset: 0x6D707, size: 0x8, addend: 0x0, symName: '+[GDTCORFlatFileStorage batchDataStoragePath]', symObjAddr: 0x352C, symBinAddr: 0xE77C, symSize: 0xDC }
+  - { offset: 0x6D733, size: 0x8, addend: 0x0, symName: _batchDataStoragePath.batchDataPath, symObjAddr: 0x18488, symBinAddr: 0x321B8, symSize: 0x0 }
+  - { offset: 0x6D74A, size: 0x8, addend: 0x0, symName: _batchDataStoragePath.onceToken, symObjAddr: 0x18490, symBinAddr: 0x321C0, symSize: 0x0 }
+  - { offset: 0x6D7AD, size: 0x8, addend: 0x0, symName: '+[GDTCORFlatFileStorage libraryDataStoragePath]', symObjAddr: 0x36B8, symBinAddr: 0xE908, symSize: 0xDC }
+  - { offset: 0x6D7D9, size: 0x8, addend: 0x0, symName: _libraryDataStoragePath.libraryDataPath, symObjAddr: 0x18498, symBinAddr: 0x321C8, symSize: 0x0 }
+  - { offset: 0x6D7F0, size: 0x8, addend: 0x0, symName: _libraryDataStoragePath.onceToken, symObjAddr: 0x184A0, symBinAddr: 0x321D0, symSize: 0x0 }
+  - { offset: 0x6D95B, size: 0x8, addend: 0x0, symName: '+[GDTCORFlatFileStorage load]', symObjAddr: 0x0, symBinAddr: 0xB308, symSize: 0x18C }
+  - { offset: 0x6DA24, size: 0x8, addend: 0x0, symName: '+[GDTCORFlatFileStorage sharedInstance].cold.1', symObjAddr: 0x4A34, symBinAddr: 0x18800, symSize: 0x14 }
+  - { offset: 0x6DA40, size: 0x8, addend: 0x0, symName: '+[GDTCORFlatFileStorage sharedInstance].cold.1', symObjAddr: 0x4A34, symBinAddr: 0x18800, symSize: 0x14 }
+  - { offset: 0x6DA52, size: 0x8, addend: 0x0, symName: '___39+[GDTCORFlatFileStorage sharedInstance]_block_invoke', symObjAddr: 0x1D0, symBinAddr: 0xB4D8, symSize: 0x30 }
+  - { offset: 0x6DA79, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage init]', symObjAddr: 0x200, symBinAddr: 0xB508, symSize: 0x8C }
+  - { offset: 0x6DAE7, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage sizeTracker]', symObjAddr: 0x28C, symBinAddr: 0xB594, symSize: 0x98 }
+  - { offset: 0x6DB3D, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage storeEvent:onComplete:]', symObjAddr: 0x324, symBinAddr: 0xB62C, symSize: 0x260 }
+  - { offset: 0x6DC5B, size: 0x8, addend: 0x0, symName: '___47-[GDTCORFlatFileStorage storeEvent:onComplete:]_block_invoke', symObjAddr: 0x584, symBinAddr: 0xB88C, symSize: 0x50 }
+  - { offset: 0x6DCD1, size: 0x8, addend: 0x0, symName: '___47-[GDTCORFlatFileStorage storeEvent:onComplete:]_block_invoke.41', symObjAddr: 0x5E4, symBinAddr: 0xB8DC, symSize: 0x64 }
+  - { offset: 0x6DD0C, size: 0x8, addend: 0x0, symName: '___47-[GDTCORFlatFileStorage storeEvent:onComplete:]_block_invoke.42', symObjAddr: 0x664, symBinAddr: 0xB940, symSize: 0x3EC }
+  - { offset: 0x6DF29, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48b56r, symObjAddr: 0xA50, symBinAddr: 0xBD2C, symSize: 0x4C }
+  - { offset: 0x6DF52, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56r, symObjAddr: 0xA9C, symBinAddr: 0xBD78, symSize: 0x3C }
+  - { offset: 0x6DF71, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage batchWithEventSelector:batchExpiration:onComplete:]', symObjAddr: 0xAD8, symBinAddr: 0xBDB4, symSize: 0x1EC }
+  - { offset: 0x6E004, size: 0x8, addend: 0x0, symName: '___75-[GDTCORFlatFileStorage batchWithEventSelector:batchExpiration:onComplete:]_block_invoke', symObjAddr: 0xCC4, symBinAddr: 0xBFA0, symSize: 0x100 }
+  - { offset: 0x6E0AC, size: 0x8, addend: 0x0, symName: '___75-[GDTCORFlatFileStorage batchWithEventSelector:batchExpiration:onComplete:]_block_invoke_2', symObjAddr: 0xDC4, symBinAddr: 0xC0A0, symSize: 0x314 }
+  - { offset: 0x6E24F, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64b, symObjAddr: 0x10D8, symBinAddr: 0xC3B4, symSize: 0x4C }
+  - { offset: 0x6E278, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64s, symObjAddr: 0x1124, symBinAddr: 0xC400, symSize: 0x40 }
+  - { offset: 0x6E297, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56b, symObjAddr: 0x1164, symBinAddr: 0xC440, symSize: 0x44 }
+  - { offset: 0x6E2C0, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s, symObjAddr: 0x11A8, symBinAddr: 0xC484, symSize: 0x38 }
+  - { offset: 0x6E2DF, size: 0x8, addend: 0x0, symName: '___75-[GDTCORFlatFileStorage batchWithEventSelector:batchExpiration:onComplete:]_block_invoke.61', symObjAddr: 0x11E0, symBinAddr: 0xC4BC, symSize: 0xE0 }
+  - { offset: 0x6E38B, size: 0x8, addend: 0x0, symName: '___75-[GDTCORFlatFileStorage batchWithEventSelector:batchExpiration:onComplete:]_block_invoke_2.62', symObjAddr: 0x12C0, symBinAddr: 0xC59C, symSize: 0x14C }
+  - { offset: 0x6E423, size: 0x8, addend: 0x0, symName: '___75-[GDTCORFlatFileStorage batchWithEventSelector:batchExpiration:onComplete:]_block_invoke_3', symObjAddr: 0x140C, symBinAddr: 0xC6E8, symSize: 0x14 }
+  - { offset: 0x6E496, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56b64b, symObjAddr: 0x147C, symBinAddr: 0xC6FC, symSize: 0x54 }
+  - { offset: 0x6E4BF, size: 0x8, addend: 0x0, symName: '___75-[GDTCORFlatFileStorage batchWithEventSelector:batchExpiration:onComplete:]_block_invoke.65', symObjAddr: 0x14D0, symBinAddr: 0xC750, symSize: 0x5C }
+  - { offset: 0x6E54A, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b40b, symObjAddr: 0x152C, symBinAddr: 0xC7AC, symSize: 0x3C }
+  - { offset: 0x6E573, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage removeBatchWithID:deleteEvents:onComplete:]', symObjAddr: 0x1568, symBinAddr: 0xC7E8, symSize: 0xC8 }
+  - { offset: 0x6E5F3, size: 0x8, addend: 0x0, symName: '___67-[GDTCORFlatFileStorage removeBatchWithID:deleteEvents:onComplete:]_block_invoke', symObjAddr: 0x1630, symBinAddr: 0xC8B0, symSize: 0x44 }
+  - { offset: 0x6E674, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48b, symObjAddr: 0x1674, symBinAddr: 0xC8F4, symSize: 0x3C }
+  - { offset: 0x6E69D, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage batchIDsForTarget:onComplete:]', symObjAddr: 0x16E0, symBinAddr: 0xC930, symSize: 0x98 }
+  - { offset: 0x6E710, size: 0x8, addend: 0x0, symName: '___54-[GDTCORFlatFileStorage batchIDsForTarget:onComplete:]_block_invoke', symObjAddr: 0x1778, symBinAddr: 0xC9C8, symSize: 0x268 }
+  - { offset: 0x6E848, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage libraryDataForKey:onFetchComplete:setNewValue:]', symObjAddr: 0x19E0, symBinAddr: 0xCC30, symSize: 0xE4 }
+  - { offset: 0x6E8CC, size: 0x8, addend: 0x0, symName: '___71-[GDTCORFlatFileStorage libraryDataForKey:onFetchComplete:setNewValue:]_block_invoke', symObjAddr: 0x1AC4, symBinAddr: 0xCD14, symSize: 0x1D8 }
+  - { offset: 0x6EA05, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48b56b, symObjAddr: 0x1C9C, symBinAddr: 0xCEEC, symSize: 0x4C }
+  - { offset: 0x6EA2E, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage storeLibraryData:forKey:onComplete:]', symObjAddr: 0x1CE8, symBinAddr: 0xCF38, symSize: 0x144 }
+  - { offset: 0x6EACD, size: 0x8, addend: 0x0, symName: '___60-[GDTCORFlatFileStorage storeLibraryData:forKey:onComplete:]_block_invoke', symObjAddr: 0x1E2C, symBinAddr: 0xD07C, symSize: 0xE4 }
+  - { offset: 0x6EB87, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage removeLibraryDataForKey:onComplete:]', symObjAddr: 0x1F10, symBinAddr: 0xD160, symSize: 0xB8 }
+  - { offset: 0x6EBFA, size: 0x8, addend: 0x0, symName: '___60-[GDTCORFlatFileStorage removeLibraryDataForKey:onComplete:]_block_invoke', symObjAddr: 0x1FC8, symBinAddr: 0xD218, symSize: 0x17C }
+  - { offset: 0x6ECB4, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage hasEventsForTarget:onComplete:]', symObjAddr: 0x2144, symBinAddr: 0xD394, symSize: 0x94 }
+  - { offset: 0x6ED27, size: 0x8, addend: 0x0, symName: '___55-[GDTCORFlatFileStorage hasEventsForTarget:onComplete:]_block_invoke', symObjAddr: 0x21D8, symBinAddr: 0xD428, symSize: 0x108 }
+  - { offset: 0x6EDD5, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x22E0, symBinAddr: 0xD530, symSize: 0x10 }
+  - { offset: 0x6EDFE, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage checkForExpirations]', symObjAddr: 0x22F0, symBinAddr: 0xD540, symSize: 0x58 }
+  - { offset: 0x6EE48, size: 0x8, addend: 0x0, symName: '___44-[GDTCORFlatFileStorage checkForExpirations]_block_invoke', symObjAddr: 0x2348, symBinAddr: 0xD598, symSize: 0x5D0 }
+  - { offset: 0x6F0E6, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage storageSizeWithCallback:]', symObjAddr: 0x2918, symBinAddr: 0xDB68, symSize: 0x94 }
+  - { offset: 0x6F148, size: 0x8, addend: 0x0, symName: '___49-[GDTCORFlatFileStorage storageSizeWithCallback:]_block_invoke', symObjAddr: 0x29AC, symBinAddr: 0xDBFC, symSize: 0x44 }
+  - { offset: 0x6F1AF, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage batchDirPathsForBatchID:error:]', symObjAddr: 0x29F0, symBinAddr: 0xDC40, symSize: 0x2CC }
+  - { offset: 0x6F2D1, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage moveContentsOfDirectoryAtPath:to:error:]', symObjAddr: 0x2CBC, symBinAddr: 0xDF0C, symSize: 0x2E8 }
+  - { offset: 0x6F3F6, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage syncThreadUnsafeRemoveBatchWithID:deleteEvents:]', symObjAddr: 0x2FA4, symBinAddr: 0xE1F4, symSize: 0x388 }
+  - { offset: 0x6F56F, size: 0x8, addend: 0x0, symName: '___72-[GDTCORFlatFileStorage syncThreadUnsafeRemoveBatchWithID:deleteEvents:]_block_invoke', symObjAddr: 0x332C, symBinAddr: 0xE57C, symSize: 0x74 }
+  - { offset: 0x6F60C, size: 0x8, addend: 0x0, symName: '___45+[GDTCORFlatFileStorage eventDataStoragePath]_block_invoke', symObjAddr: 0x347C, symBinAddr: 0xE6CC, symSize: 0xB0 }
+  - { offset: 0x6F67D, size: 0x8, addend: 0x0, symName: '___45+[GDTCORFlatFileStorage batchDataStoragePath]_block_invoke', symObjAddr: 0x3608, symBinAddr: 0xE858, symSize: 0xB0 }
+  - { offset: 0x6F6DB, size: 0x8, addend: 0x0, symName: '___47+[GDTCORFlatFileStorage libraryDataStoragePath]_block_invoke', symObjAddr: 0x3794, symBinAddr: 0xE9E4, symSize: 0xB0 }
+  - { offset: 0x6F739, size: 0x8, addend: 0x0, symName: '+[GDTCORFlatFileStorage batchPathForTarget:batchID:expirationDate:]', symObjAddr: 0x3844, symBinAddr: 0xEA94, symSize: 0xD4 }
+  - { offset: 0x6F7A0, size: 0x8, addend: 0x0, symName: '+[GDTCORFlatFileStorage pathForTarget:eventID:qosTier:expirationDate:mappingID:]', symObjAddr: 0x3918, symBinAddr: 0xEB68, symSize: 0x170 }
+  - { offset: 0x6F83A, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage pathsForTarget:eventIDs:qosTiers:mappingIDs:onComplete:]', symObjAddr: 0x3A88, symBinAddr: 0xECD8, symSize: 0x128 }
+  - { offset: 0x6F8F1, size: 0x8, addend: 0x0, symName: '___80-[GDTCORFlatFileStorage pathsForTarget:eventIDs:qosTiers:mappingIDs:onComplete:]_block_invoke', symObjAddr: 0x3BB0, symBinAddr: 0xEE00, symSize: 0x4 }
+  - { offset: 0x6F927, size: 0x8, addend: 0x0, symName: '___80-[GDTCORFlatFileStorage pathsForTarget:eventIDs:qosTiers:mappingIDs:onComplete:]_block_invoke_2', symObjAddr: 0x3BB4, symBinAddr: 0xEE04, symSize: 0x4D0 }
+  - { offset: 0x6FB5E, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage nextBatchID:]', symObjAddr: 0x4084, symBinAddr: 0xF2D4, symSize: 0x104 }
+  - { offset: 0x6FBB9, size: 0x8, addend: 0x0, symName: '___37-[GDTCORFlatFileStorage nextBatchID:]_block_invoke', symObjAddr: 0x4188, symBinAddr: 0xF3D8, symSize: 0xC0 }
+  - { offset: 0x6FC45, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b40r, symObjAddr: 0x4248, symBinAddr: 0xF498, symSize: 0x3C }
+  - { offset: 0x6FC6E, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40r, symObjAddr: 0x4284, symBinAddr: 0xF4D4, symSize: 0x2C }
+  - { offset: 0x6FC8D, size: 0x8, addend: 0x0, symName: '___37-[GDTCORFlatFileStorage nextBatchID:]_block_invoke.115', symObjAddr: 0x42B0, symBinAddr: 0xF500, symSize: 0x58 }
+  - { offset: 0x6FCEF, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage eventComponentsFromFilename:]', symObjAddr: 0x4308, symBinAddr: 0xF558, symSize: 0x254 }
+  - { offset: 0x6FDC6, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage batchComponentsFromFilename:]', symObjAddr: 0x455C, symBinAddr: 0xF7AC, symSize: 0x218 }
+  - { offset: 0x6FE8C, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage appWillBackground:]', symObjAddr: 0x4774, symBinAddr: 0xF9C4, symSize: 0x88 }
+  - { offset: 0x6FEEE, size: 0x8, addend: 0x0, symName: '___43-[GDTCORFlatFileStorage appWillBackground:]_block_invoke', symObjAddr: 0x47FC, symBinAddr: 0xFA4C, symSize: 0xE4 }
+  - { offset: 0x6FF50, size: 0x8, addend: 0x0, symName: '___43-[GDTCORFlatFileStorage appWillBackground:]_block_invoke_2', symObjAddr: 0x48E0, symBinAddr: 0xFB30, symSize: 0x48 }
+  - { offset: 0x6FF9F, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40r, symObjAddr: 0x4928, symBinAddr: 0xFB78, symSize: 0x34 }
+  - { offset: 0x6FFC8, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage delegate]', symObjAddr: 0x495C, symBinAddr: 0xFBAC, symSize: 0x18 }
+  - { offset: 0x6FFFF, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage setDelegate:]', symObjAddr: 0x4974, symBinAddr: 0xFBC4, symSize: 0xC }
+  - { offset: 0x70040, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage storageQueue]', symObjAddr: 0x4980, symBinAddr: 0xFBD0, symSize: 0x8 }
+  - { offset: 0x70077, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage setStorageQueue:]', symObjAddr: 0x4988, symBinAddr: 0xFBD8, symSize: 0x30 }
+  - { offset: 0x700B8, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage uploadCoordinator]', symObjAddr: 0x49B8, symBinAddr: 0xFC08, symSize: 0x8 }
+  - { offset: 0x700EF, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage setUploadCoordinator:]', symObjAddr: 0x49C0, symBinAddr: 0xFC10, symSize: 0x30 }
+  - { offset: 0x70130, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage .cxx_destruct]', symObjAddr: 0x49F0, symBinAddr: 0xFC40, symSize: 0x44 }
+  - { offset: 0x714D3, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage(Promises) batchIDsForTarget:]', symObjAddr: 0x0, symBinAddr: 0xFC84, symSize: 0xA0 }
+  - { offset: 0x7151A, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage(Promises) batchIDsForTarget:]', symObjAddr: 0x0, symBinAddr: 0xFC84, symSize: 0xA0 }
+  - { offset: 0x71561, size: 0x8, addend: 0x0, symName: '___53-[GDTCORFlatFileStorage(Promises) batchIDsForTarget:]_block_invoke', symObjAddr: 0xA0, symBinAddr: 0xFD24, symSize: 0x10 }
+  - { offset: 0x715C0, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage(Promises) removeBatchWithID:deleteEvents:]', symObjAddr: 0xC0, symBinAddr: 0xFD34, symSize: 0xD4 }
+  - { offset: 0x71613, size: 0x8, addend: 0x0, symName: '___66-[GDTCORFlatFileStorage(Promises) removeBatchWithID:deleteEvents:]_block_invoke', symObjAddr: 0x194, symBinAddr: 0xFE08, symSize: 0x14 }
+  - { offset: 0x71682, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage(Promises) removeBatchesWithIDs:deleteEvents:]', symObjAddr: 0x1F8, symBinAddr: 0xFE1C, symSize: 0x228 }
+  - { offset: 0x71723, size: 0x8, addend: 0x0, symName: '___69-[GDTCORFlatFileStorage(Promises) removeBatchesWithIDs:deleteEvents:]_block_invoke', symObjAddr: 0x420, symBinAddr: 0x10044, symSize: 0x5C }
+  - { offset: 0x7175A, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage(Promises) removeAllBatchesForTarget:deleteEvents:]', symObjAddr: 0x47C, symBinAddr: 0x100A0, symSize: 0xCC }
+  - { offset: 0x717CF, size: 0x8, addend: 0x0, symName: '___74-[GDTCORFlatFileStorage(Promises) removeAllBatchesForTarget:deleteEvents:]_block_invoke', symObjAddr: 0x548, symBinAddr: 0x1016C, symSize: 0xA8 }
+  - { offset: 0x71822, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage(Promises) hasEventsForTarget:]', symObjAddr: 0x5F0, symBinAddr: 0x10214, symSize: 0xA0 }
+  - { offset: 0x71869, size: 0x8, addend: 0x0, symName: '___54-[GDTCORFlatFileStorage(Promises) hasEventsForTarget:]_block_invoke', symObjAddr: 0x690, symBinAddr: 0x102B4, symSize: 0x10 }
+  - { offset: 0x718C8, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage(Promises) batchWithEventSelector:batchExpiration:]', symObjAddr: 0x6A0, symBinAddr: 0x102C4, symSize: 0xF4 }
+  - { offset: 0x7191F, size: 0x8, addend: 0x0, symName: '___74-[GDTCORFlatFileStorage(Promises) batchWithEventSelector:batchExpiration:]_block_invoke', symObjAddr: 0x794, symBinAddr: 0x103B8, symSize: 0xCC }
+  - { offset: 0x7199E, size: 0x8, addend: 0x0, symName: '___74-[GDTCORFlatFileStorage(Promises) batchWithEventSelector:batchExpiration:]_block_invoke_2', symObjAddr: 0x860, symBinAddr: 0x10484, symSize: 0xA4 }
+  - { offset: 0x71A38, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b48b, symObjAddr: 0x904, symBinAddr: 0x10528, symSize: 0x44 }
+  - { offset: 0x71A61, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage(Promises) fetchAndUpdateMetricsWithHandler:]', symObjAddr: 0x9A8, symBinAddr: 0x1056C, symSize: 0xE0 }
+  - { offset: 0x71ACA, size: 0x8, addend: 0x0, symName: '___68-[GDTCORFlatFileStorage(Promises) fetchAndUpdateMetricsWithHandler:]_block_invoke', symObjAddr: 0xA88, symBinAddr: 0x1064C, symSize: 0x158 }
+  - { offset: 0x71CD7, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage(Promises) fetchStorageMetadata]', symObjAddr: 0xC14, symBinAddr: 0x107A4, symSize: 0xBC }
+  - { offset: 0x71D30, size: 0x8, addend: 0x0, symName: '___55-[GDTCORFlatFileStorage(Promises) fetchStorageMetadata]_block_invoke', symObjAddr: 0xCD0, symBinAddr: 0x10860, symSize: 0x88 }
+  - { offset: 0x71D8B, size: 0x8, addend: 0x0, symName: '___55-[GDTCORFlatFileStorage(Promises) fetchStorageMetadata]_block_invoke_2', symObjAddr: 0xD58, symBinAddr: 0x108E8, symSize: 0x58 }
+  - { offset: 0x71DF1, size: 0x8, addend: 0x0, symName: '-[GDTCORFlatFileStorage(Promises) genericRejectedPromiseErrorWithReason:]', symObjAddr: 0xDC0, symBinAddr: 0x10940, symSize: 0xD8 }
+  - { offset: 0x724F6, size: 0x8, addend: 0x0, symName: '+[GDTCORLifecycle load]', symObjAddr: 0x0, symBinAddr: 0x10A18, symSize: 0x1C }
+  - { offset: 0x72504, size: 0x8, addend: 0x0, symName: '+[GDTCORLifecycle sharedInstance]', symObjAddr: 0x1C, symBinAddr: 0x10A34, symSize: 0x44 }
+  - { offset: 0x7252E, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x37A0, symBinAddr: 0x321D8, symSize: 0x0 }
+  - { offset: 0x72544, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x37A8, symBinAddr: 0x321E0, symSize: 0x0 }
+  - { offset: 0x7263F, size: 0x8, addend: 0x0, symName: '+[GDTCORLifecycle load]', symObjAddr: 0x0, symBinAddr: 0x10A18, symSize: 0x1C }
+  - { offset: 0x726AE, size: 0x8, addend: 0x0, symName: '+[GDTCORLifecycle sharedInstance].cold.1', symObjAddr: 0x6D8, symBinAddr: 0x18814, symSize: 0x14 }
+  - { offset: 0x726CA, size: 0x8, addend: 0x0, symName: '+[GDTCORLifecycle sharedInstance].cold.1', symObjAddr: 0x6D8, symBinAddr: 0x18814, symSize: 0x14 }
+  - { offset: 0x726DC, size: 0x8, addend: 0x0, symName: '___33+[GDTCORLifecycle sharedInstance]_block_invoke', symObjAddr: 0x60, symBinAddr: 0x10A78, symSize: 0x30 }
+  - { offset: 0x72703, size: 0x8, addend: 0x0, symName: '-[GDTCORLifecycle init]', symObjAddr: 0x90, symBinAddr: 0x10AA8, symSize: 0xD0 }
+  - { offset: 0x72759, size: 0x8, addend: 0x0, symName: '-[GDTCORLifecycle dealloc]', symObjAddr: 0x160, symBinAddr: 0x10B78, symSize: 0x68 }
+  - { offset: 0x7278C, size: 0x8, addend: 0x0, symName: '-[GDTCORLifecycle applicationDidEnterBackgroundNotification:]', symObjAddr: 0x1C8, symBinAddr: 0x10BE0, symSize: 0x1B0 }
+  - { offset: 0x7285C, size: 0x8, addend: 0x0, symName: '-[GDTCORLifecycle applicationWillEnterForegroundNotification:]', symObjAddr: 0x378, symBinAddr: 0x10D90, symSize: 0x1B0 }
+  - { offset: 0x728F8, size: 0x8, addend: 0x0, symName: '-[GDTCORLifecycle applicationWillTerminateNotification:]', symObjAddr: 0x528, symBinAddr: 0x10F40, symSize: 0x1B0 }
+  - { offset: 0x72A99, size: 0x8, addend: 0x0, symName: '+[GDTCORLogSourceMetrics metrics]', symObjAddr: 0x0, symBinAddr: 0x110F0, symSize: 0x24 }
+  - { offset: 0x72B89, size: 0x8, addend: 0x0, symName: '+[GDTCORLogSourceMetrics metrics]', symObjAddr: 0x0, symBinAddr: 0x110F0, symSize: 0x24 }
+  - { offset: 0x72BC0, size: 0x8, addend: 0x0, symName: '+[GDTCORLogSourceMetrics metricsWithEvents:droppedForReason:]', symObjAddr: 0x24, symBinAddr: 0x11114, symSize: 0x2E4 }
+  - { offset: 0x72C71, size: 0x8, addend: 0x0, symName: '-[GDTCORLogSourceMetrics initWithDroppedEventCounterByLogSource:]', symObjAddr: 0x308, symBinAddr: 0x113F8, symSize: 0x78 }
+  - { offset: 0x72CB8, size: 0x8, addend: 0x0, symName: '-[GDTCORLogSourceMetrics logSourceMetricsByMergingWithLogSourceMetrics:]', symObjAddr: 0x380, symBinAddr: 0x11470, symSize: 0x100 }
+  - { offset: 0x72D0F, size: 0x8, addend: 0x0, symName: '___72-[GDTCORLogSourceMetrics logSourceMetricsByMergingWithLogSourceMetrics:]_block_invoke', symObjAddr: 0x480, symBinAddr: 0x11570, symSize: 0x78 }
+  - { offset: 0x72D72, size: 0x8, addend: 0x0, symName: '___72-[GDTCORLogSourceMetrics logSourceMetricsByMergingWithLogSourceMetrics:]_block_invoke_2', symObjAddr: 0x4F8, symBinAddr: 0x115E8, symSize: 0x60 }
+  - { offset: 0x72DBD, size: 0x8, addend: 0x0, symName: '+[GDTCORLogSourceMetrics dictionaryByMergingDictionary:withOtherDictionary:uniquingKeysWithBlock:]', symObjAddr: 0x568, symBinAddr: 0x11648, symSize: 0xE8 }
+  - { offset: 0x72E30, size: 0x8, addend: 0x0, symName: '___98+[GDTCORLogSourceMetrics dictionaryByMergingDictionary:withOtherDictionary:uniquingKeysWithBlock:]_block_invoke', symObjAddr: 0x650, symBinAddr: 0x11730, symSize: 0xDC }
+  - { offset: 0x72EE0, size: 0x8, addend: 0x0, symName: '-[GDTCORLogSourceMetrics isEqualToLogSourceMetrics:]', symObjAddr: 0x788, symBinAddr: 0x1180C, symSize: 0x4C }
+  - { offset: 0x72F27, size: 0x8, addend: 0x0, symName: '-[GDTCORLogSourceMetrics isEqual:]', symObjAddr: 0x7D4, symBinAddr: 0x11858, symSize: 0x78 }
+  - { offset: 0x72F6E, size: 0x8, addend: 0x0, symName: '-[GDTCORLogSourceMetrics hash]', symObjAddr: 0x84C, symBinAddr: 0x118D0, symSize: 0x8 }
+  - { offset: 0x72FA5, size: 0x8, addend: 0x0, symName: '+[GDTCORLogSourceMetrics supportsSecureCoding]', symObjAddr: 0x854, symBinAddr: 0x118D8, symSize: 0x8 }
+  - { offset: 0x72FD8, size: 0x8, addend: 0x0, symName: '-[GDTCORLogSourceMetrics initWithCoder:]', symObjAddr: 0x85C, symBinAddr: 0x118E0, symSize: 0x168 }
+  - { offset: 0x7302F, size: 0x8, addend: 0x0, symName: '-[GDTCORLogSourceMetrics encodeWithCoder:]', symObjAddr: 0x9C4, symBinAddr: 0x11A48, symSize: 0x5C }
+  - { offset: 0x73072, size: 0x8, addend: 0x0, symName: '-[GDTCORLogSourceMetrics description]', symObjAddr: 0xA20, symBinAddr: 0x11AA4, symSize: 0xA4 }
+  - { offset: 0x730A9, size: 0x8, addend: 0x0, symName: '-[GDTCORLogSourceMetrics droppedEventCounterByLogSource]', symObjAddr: 0xAC4, symBinAddr: 0x11B48, symSize: 0x8 }
+  - { offset: 0x730E0, size: 0x8, addend: 0x0, symName: '-[GDTCORLogSourceMetrics .cxx_destruct]', symObjAddr: 0xACC, symBinAddr: 0x11B50, symSize: 0xC }
+  - { offset: 0x734D2, size: 0x8, addend: 0x0, symName: '-[GDTCORMetrics initWithCollectionStartDate:collectionEndDate:logSourceMetrics:currentCacheSize:maxCacheSize:bundleID:]', symObjAddr: 0x0, symBinAddr: 0x11B5C, symSize: 0x11C }
+  - { offset: 0x735E1, size: 0x8, addend: 0x0, symName: '-[GDTCORMetrics initWithCollectionStartDate:collectionEndDate:logSourceMetrics:currentCacheSize:maxCacheSize:bundleID:]', symObjAddr: 0x0, symBinAddr: 0x11B5C, symSize: 0x11C }
+  - { offset: 0x73678, size: 0x8, addend: 0x0, symName: '+[GDTCORMetrics metricsWithMetricsMetadata:storageMetadata:]', symObjAddr: 0x11C, symBinAddr: 0x11C78, symSize: 0x15C }
+  - { offset: 0x736EB, size: 0x8, addend: 0x0, symName: '-[GDTCORMetrics isEqualToMetrics:]', symObjAddr: 0x278, symBinAddr: 0x11DD4, symSize: 0x1D8 }
+  - { offset: 0x73732, size: 0x8, addend: 0x0, symName: '-[GDTCORMetrics isEqual:]', symObjAddr: 0x450, symBinAddr: 0x11FAC, symSize: 0x78 }
+  - { offset: 0x73779, size: 0x8, addend: 0x0, symName: '-[GDTCORMetrics hash]', symObjAddr: 0x4C8, symBinAddr: 0x12024, symSize: 0x13C }
+  - { offset: 0x737B0, size: 0x8, addend: 0x0, symName: '-[GDTCORMetrics description]', symObjAddr: 0x604, symBinAddr: 0x12160, symSize: 0x12C }
+  - { offset: 0x737E7, size: 0x8, addend: 0x0, symName: '-[GDTCORMetrics collectionStartDate]', symObjAddr: 0x730, symBinAddr: 0x1228C, symSize: 0x8 }
+  - { offset: 0x7381E, size: 0x8, addend: 0x0, symName: '-[GDTCORMetrics logSourceMetrics]', symObjAddr: 0x738, symBinAddr: 0x12294, symSize: 0x8 }
+  - { offset: 0x73855, size: 0x8, addend: 0x0, symName: '-[GDTCORMetrics collectionEndDate]', symObjAddr: 0x740, symBinAddr: 0x1229C, symSize: 0x8 }
+  - { offset: 0x7388C, size: 0x8, addend: 0x0, symName: '-[GDTCORMetrics currentCacheSize]', symObjAddr: 0x748, symBinAddr: 0x122A4, symSize: 0x8 }
+  - { offset: 0x738C3, size: 0x8, addend: 0x0, symName: '-[GDTCORMetrics maxCacheSize]', symObjAddr: 0x750, symBinAddr: 0x122AC, symSize: 0x8 }
+  - { offset: 0x738FA, size: 0x8, addend: 0x0, symName: '-[GDTCORMetrics bundleID]', symObjAddr: 0x758, symBinAddr: 0x122B4, symSize: 0x8 }
+  - { offset: 0x73931, size: 0x8, addend: 0x0, symName: '-[GDTCORMetrics .cxx_destruct]', symObjAddr: 0x760, symBinAddr: 0x122BC, symSize: 0x48 }
+  - { offset: 0x73A56, size: 0x8, addend: 0x0, symName: '-[GDTCORMetrics(GDTCCTSupport) transportBytes]', symObjAddr: 0x0, symBinAddr: 0x12304, symSize: 0x1F0 }
+  - { offset: 0x73BCA, size: 0x8, addend: 0x0, symName: '-[GDTCORMetrics(GDTCCTSupport) transportBytes]', symObjAddr: 0x0, symBinAddr: 0x12304, symSize: 0x1F0 }
+  - { offset: 0x73DB6, size: 0x8, addend: 0x0, symName: _GDTCCTConstructTimeWindow, symObjAddr: 0x1F0, symBinAddr: 0x124F4, symSize: 0x6C }
+  - { offset: 0x73E01, size: 0x8, addend: 0x0, symName: _GDTCCTConstructLogSourceMetrics, symObjAddr: 0x25C, symBinAddr: 0x12560, symSize: 0x100 }
+  - { offset: 0x73FA6, size: 0x8, addend: 0x0, symName: _GDTCCTGetLogSourceMetricsCount, symObjAddr: 0x35C, symBinAddr: 0x12660, symSize: 0x3C }
+  - { offset: 0x73FC5, size: 0x8, addend: 0x0, symName: _GDTCCTConstructGlobalMetrics, symObjAddr: 0x398, symBinAddr: 0x1269C, symSize: 0x4 }
+  - { offset: 0x7401C, size: 0x8, addend: 0x0, symName: ___GDTCCTConstructLogSourceMetrics_block_invoke, symObjAddr: 0x39C, symBinAddr: 0x126A0, symSize: 0x188 }
+  - { offset: 0x740F6, size: 0x8, addend: 0x0, symName: ___GDTCCTConstructLogSourceMetrics_block_invoke_2, symObjAddr: 0x524, symBinAddr: 0x12828, symSize: 0x90 }
+  - { offset: 0x741A2, size: 0x8, addend: 0x0, symName: _GDTCCTConvertEventDropReasonToProtoReason, symObjAddr: 0x5B4, symBinAddr: 0x128B8, symSize: 0x10 }
+  - { offset: 0x741CD, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32r40r, symObjAddr: 0x5C4, symBinAddr: 0x128C8, symSize: 0x3C }
+  - { offset: 0x741F6, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32r40r, symObjAddr: 0x600, symBinAddr: 0x12904, symSize: 0x30 }
+  - { offset: 0x74672, size: 0x8, addend: 0x0, symName: '+[GDTCORMetricsController load]', symObjAddr: 0x0, symBinAddr: 0x12934, symSize: 0xB4 }
+  - { offset: 0x74680, size: 0x8, addend: 0x0, symName: '+[GDTCORMetricsController sharedInstance]', symObjAddr: 0xB4, symBinAddr: 0x129E8, symSize: 0x88 }
+  - { offset: 0x746AA, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x7348, symBinAddr: 0x321E8, symSize: 0x0 }
+  - { offset: 0x746C0, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x7350, symBinAddr: 0x321F0, symSize: 0x0 }
+  - { offset: 0x748B1, size: 0x8, addend: 0x0, symName: '+[GDTCORMetricsController load]', symObjAddr: 0x0, symBinAddr: 0x12934, symSize: 0xB4 }
+  - { offset: 0x74932, size: 0x8, addend: 0x0, symName: '___41+[GDTCORMetricsController sharedInstance]_block_invoke', symObjAddr: 0x13C, symBinAddr: 0x12A70, symSize: 0x60 }
+  - { offset: 0x74971, size: 0x8, addend: 0x0, symName: '-[GDTCORMetricsController initWithStorage:]', symObjAddr: 0x19C, symBinAddr: 0x12AD0, symSize: 0x74 }
+  - { offset: 0x749B8, size: 0x8, addend: 0x0, symName: '-[GDTCORMetricsController logEventsDroppedForReason:events:]', symObjAddr: 0x210, symBinAddr: 0x12B44, symSize: 0xE0 }
+  - { offset: 0x74A1F, size: 0x8, addend: 0x0, symName: '___60-[GDTCORMetricsController logEventsDroppedForReason:events:]_block_invoke', symObjAddr: 0x2F0, symBinAddr: 0x12C24, symSize: 0x17C }
+  - { offset: 0x74B1B, size: 0x8, addend: 0x0, symName: '-[GDTCORMetricsController getAndResetMetrics]', symObjAddr: 0x47C, symBinAddr: 0x12DA0, symSize: 0x214 }
+  - { offset: 0x74BB4, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x690, symBinAddr: 0x12FB4, symSize: 0x10 }
+  - { offset: 0x74BD9, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x6A0, symBinAddr: 0x12FC4, symSize: 0x8 }
+  - { offset: 0x74BF8, size: 0x8, addend: 0x0, symName: '___45-[GDTCORMetricsController getAndResetMetrics]_block_invoke', symObjAddr: 0x6A8, symBinAddr: 0x12FCC, symSize: 0xE8 }
+  - { offset: 0x74C72, size: 0x8, addend: 0x0, symName: '___45-[GDTCORMetricsController getAndResetMetrics]_block_invoke.8', symObjAddr: 0x7AC, symBinAddr: 0x130B4, symSize: 0x18 }
+  - { offset: 0x74CBD, size: 0x8, addend: 0x0, symName: '___45-[GDTCORMetricsController getAndResetMetrics]_block_invoke.10', symObjAddr: 0x7C4, symBinAddr: 0x130CC, symSize: 0x48 }
+  - { offset: 0x74D0C, size: 0x8, addend: 0x0, symName: '___45-[GDTCORMetricsController getAndResetMetrics]_block_invoke.12', symObjAddr: 0x80C, symBinAddr: 0x13114, symSize: 0x20 }
+  - { offset: 0x74D5B, size: 0x8, addend: 0x0, symName: '-[GDTCORMetricsController offerMetrics:]', symObjAddr: 0x82C, symBinAddr: 0x13134, symSize: 0xD4 }
+  - { offset: 0x74DB2, size: 0x8, addend: 0x0, symName: '___40-[GDTCORMetricsController offerMetrics:]_block_invoke', symObjAddr: 0x900, symBinAddr: 0x13208, symSize: 0x264 }
+  - { offset: 0x74E43, size: 0x8, addend: 0x0, symName: '-[GDTCORMetricsController storage:didRemoveExpiredEvents:]', symObjAddr: 0xB64, symBinAddr: 0x1346C, symSize: 0x20 }
+  - { offset: 0x74E92, size: 0x8, addend: 0x0, symName: '-[GDTCORMetricsController storage:didDropEvent:]', symObjAddr: 0xB84, symBinAddr: 0x1348C, symSize: 0x54 }
+  - { offset: 0x74EE1, size: 0x8, addend: 0x0, symName: '-[GDTCORMetricsController storage]', symObjAddr: 0xBD8, symBinAddr: 0x134E0, symSize: 0x8 }
+  - { offset: 0x74F18, size: 0x8, addend: 0x0, symName: '-[GDTCORMetricsController setStorage:]', symObjAddr: 0xBE0, symBinAddr: 0x134E8, symSize: 0x30 }
+  - { offset: 0x74F59, size: 0x8, addend: 0x0, symName: '-[GDTCORMetricsController .cxx_destruct]', symObjAddr: 0xC10, symBinAddr: 0x13518, symSize: 0xC }
+  - { offset: 0x75631, size: 0x8, addend: 0x0, symName: '+[GDTCORMetricsMetadata metadataWithCollectionStartDate:logSourceMetrics:]', symObjAddr: 0x0, symBinAddr: 0x13524, symSize: 0x68 }
+  - { offset: 0x756AD, size: 0x8, addend: 0x0, symName: '+[GDTCORMetricsMetadata metadataWithCollectionStartDate:logSourceMetrics:]', symObjAddr: 0x0, symBinAddr: 0x13524, symSize: 0x68 }
+  - { offset: 0x75704, size: 0x8, addend: 0x0, symName: '-[GDTCORMetricsMetadata initWithCollectionStartDate:logSourceMetrics:]', symObjAddr: 0x68, symBinAddr: 0x1358C, symSize: 0xA8 }
+  - { offset: 0x7575B, size: 0x8, addend: 0x0, symName: '-[GDTCORMetricsMetadata isEqualToMetricsMetadata:]', symObjAddr: 0x110, symBinAddr: 0x13634, symSize: 0xDC }
+  - { offset: 0x757A2, size: 0x8, addend: 0x0, symName: '-[GDTCORMetricsMetadata isEqual:]', symObjAddr: 0x1EC, symBinAddr: 0x13710, symSize: 0x78 }
+  - { offset: 0x757E9, size: 0x8, addend: 0x0, symName: '-[GDTCORMetricsMetadata hash]', symObjAddr: 0x264, symBinAddr: 0x13788, symSize: 0x6C }
+  - { offset: 0x75820, size: 0x8, addend: 0x0, symName: '+[GDTCORMetricsMetadata supportsSecureCoding]', symObjAddr: 0x2D0, symBinAddr: 0x137F4, symSize: 0x8 }
+  - { offset: 0x75853, size: 0x8, addend: 0x0, symName: '-[GDTCORMetricsMetadata initWithCoder:]', symObjAddr: 0x2D8, symBinAddr: 0x137FC, symSize: 0x118 }
+  - { offset: 0x758BA, size: 0x8, addend: 0x0, symName: '-[GDTCORMetricsMetadata encodeWithCoder:]', symObjAddr: 0x3F0, symBinAddr: 0x13914, symSize: 0x94 }
+  - { offset: 0x758FD, size: 0x8, addend: 0x0, symName: '-[GDTCORMetricsMetadata collectionStartDate]', symObjAddr: 0x484, symBinAddr: 0x139A8, symSize: 0x8 }
+  - { offset: 0x75934, size: 0x8, addend: 0x0, symName: '-[GDTCORMetricsMetadata logSourceMetrics]', symObjAddr: 0x48C, symBinAddr: 0x139B0, symSize: 0x8 }
+  - { offset: 0x7596B, size: 0x8, addend: 0x0, symName: '-[GDTCORMetricsMetadata .cxx_destruct]', symObjAddr: 0x494, symBinAddr: 0x139B8, symSize: 0x30 }
+  - { offset: 0x75A51, size: 0x8, addend: 0x0, symName: _kGDTCORVersion, symObjAddr: 0x1CD0, symBinAddr: 0x297E0, symSize: 0x0 }
+  - { offset: 0x75A71, size: 0x8, addend: 0x0, symName: _GDTCORBackgroundIdentifierInvalid, symObjAddr: 0x1D90, symBinAddr: 0x1C250, symSize: 0x0 }
+  - { offset: 0x75AA3, size: 0x8, addend: 0x0, symName: _kGDTCORApplicationDidEnterBackgroundNotification, symObjAddr: 0x1CD8, symBinAddr: 0x297E8, symSize: 0x0 }
+  - { offset: 0x75AB9, size: 0x8, addend: 0x0, symName: _kGDTCORApplicationWillEnterForegroundNotification, symObjAddr: 0x1CE0, symBinAddr: 0x297F0, symSize: 0x0 }
+  - { offset: 0x75ACF, size: 0x8, addend: 0x0, symName: _kGDTCORApplicationWillTerminateNotification, symObjAddr: 0x1CE8, symBinAddr: 0x297F8, symSize: 0x0 }
+  - { offset: 0x75AD9, size: 0x8, addend: 0x0, symName: _GDTCORRootDirectory, symObjAddr: 0x0, symBinAddr: 0x139E8, symSize: 0xC0 }
+  - { offset: 0x75AFF, size: 0x8, addend: 0x0, symName: _GDTCORRootDirectory.GDTPath, symObjAddr: 0xAD08, symBinAddr: 0x321F8, symSize: 0x0 }
+  - { offset: 0x75B15, size: 0x8, addend: 0x0, symName: _GDTCORRootDirectory.onceToken, symObjAddr: 0xAD10, symBinAddr: 0x32200, symSize: 0x0 }
+  - { offset: 0x75B57, size: 0x8, addend: 0x0, symName: _GDTCORNetworkMobileSubTypeMessage, symObjAddr: 0x1E4, symBinAddr: 0x13BCC, symSize: 0x10C }
+  - { offset: 0x75B7D, size: 0x8, addend: 0x0, symName: _GDTCORNetworkMobileSubTypeMessage.CTRadioAccessTechnologyToNetworkSubTypeMessage, symObjAddr: 0xAD18, symBinAddr: 0x32208, symSize: 0x0 }
+  - { offset: 0x75B93, size: 0x8, addend: 0x0, symName: _GDTCORNetworkMobileSubTypeMessage.networkInfo, symObjAddr: 0xAD20, symBinAddr: 0x32210, symSize: 0x0 }
+  - { offset: 0x75BA9, size: 0x8, addend: 0x0, symName: _GDTCORNetworkMobileSubTypeMessage.onceToken, symObjAddr: 0xAD28, symBinAddr: 0x32218, symSize: 0x0 }
+  - { offset: 0x75C27, size: 0x8, addend: 0x0, symName: _GDTCORDeviceModel, symObjAddr: 0x5F4, symBinAddr: 0x13FDC, symSize: 0x44 }
+  - { offset: 0x75C4D, size: 0x8, addend: 0x0, symName: _GDTCORDeviceModel.deviceModel, symObjAddr: 0x1E10, symBinAddr: 0x31F90, symSize: 0x0 }
+  - { offset: 0x75C63, size: 0x8, addend: 0x0, symName: _GDTCORDeviceModel.onceToken, symObjAddr: 0xAD30, symBinAddr: 0x32220, symSize: 0x0 }
+  - { offset: 0x75C97, size: 0x8, addend: 0x0, symName: '+[GDTCORApplication sharedApplication]', symObjAddr: 0xEF0, symBinAddr: 0x148D8, symSize: 0x44 }
+  - { offset: 0x75CC3, size: 0x8, addend: 0x0, symName: _sharedApplication.application, symObjAddr: 0xAD38, symBinAddr: 0x32228, symSize: 0x0 }
+  - { offset: 0x75CDA, size: 0x8, addend: 0x0, symName: _sharedApplication.onceToken, symObjAddr: 0xAD40, symBinAddr: 0x32230, symSize: 0x0 }
+  - { offset: 0x75EFD, size: 0x8, addend: 0x0, symName: _GDTCORRootDirectory.cold.1, symObjAddr: 0x1448, symBinAddr: 0x18828, symSize: 0x14 }
+  - { offset: 0x75F19, size: 0x8, addend: 0x0, symName: _GDTCORRootDirectory.cold.1, symObjAddr: 0x1448, symBinAddr: 0x18828, symSize: 0x14 }
+  - { offset: 0x75F2B, size: 0x8, addend: 0x0, symName: ___GDTCORRootDirectory_block_invoke, symObjAddr: 0xC0, symBinAddr: 0x13AA8, symSize: 0xDC }
+  - { offset: 0x75FFD, size: 0x8, addend: 0x0, symName: _GDTCORReachabilityFlagsReachable, symObjAddr: 0x19C, symBinAddr: 0x13B84, symSize: 0x10 }
+  - { offset: 0x76048, size: 0x8, addend: 0x0, symName: _GDTCORReachabilityFlagsContainWWAN, symObjAddr: 0x1AC, symBinAddr: 0x13B94, symSize: 0x8 }
+  - { offset: 0x76073, size: 0x8, addend: 0x0, symName: _GDTCORNetworkTypeMessage, symObjAddr: 0x1B4, symBinAddr: 0x13B9C, symSize: 0x30 }
+  - { offset: 0x7609E, size: 0x8, addend: 0x0, symName: _GDTCORNetworkMobileSubTypeMessage.cold.1, symObjAddr: 0x145C, symBinAddr: 0x1883C, symSize: 0x14 }
+  - { offset: 0x760BA, size: 0x8, addend: 0x0, symName: _GDTCORNetworkMobileSubTypeMessage.cold.1, symObjAddr: 0x145C, symBinAddr: 0x1883C, symSize: 0x14 }
+  - { offset: 0x760CC, size: 0x8, addend: 0x0, symName: ___GDTCORNetworkMobileSubTypeMessage_block_invoke, symObjAddr: 0x2F0, symBinAddr: 0x13CD8, symSize: 0x304 }
+  - { offset: 0x760F3, size: 0x8, addend: 0x0, symName: _GDTCORDeviceModel.cold.1, symObjAddr: 0x1470, symBinAddr: 0x18850, symSize: 0x14 }
+  - { offset: 0x7610F, size: 0x8, addend: 0x0, symName: _GDTCORDeviceModel.cold.1, symObjAddr: 0x1470, symBinAddr: 0x18850, symSize: 0x14 }
+  - { offset: 0x76121, size: 0x8, addend: 0x0, symName: ___GDTCORDeviceModel_block_invoke, symObjAddr: 0x638, symBinAddr: 0x14020, symSize: 0xE8 }
+  - { offset: 0x7626D, size: 0x8, addend: 0x0, symName: _GDTCOREncodeArchive, symObjAddr: 0x720, symBinAddr: 0x14108, symSize: 0x3F0 }
+  - { offset: 0x763B0, size: 0x8, addend: 0x0, symName: _GDTCORDecodeArchiveAtPath, symObjAddr: 0xB10, symBinAddr: 0x144F8, symSize: 0x80 }
+  - { offset: 0x7642F, size: 0x8, addend: 0x0, symName: _GDTCORDecodeArchive, symObjAddr: 0xB90, symBinAddr: 0x14578, symSize: 0x1B4 }
+  - { offset: 0x764C7, size: 0x8, addend: 0x0, symName: _GDTCORWriteDataToFile, symObjAddr: 0xD44, symBinAddr: 0x1472C, symSize: 0x154 }
+  - { offset: 0x76542, size: 0x8, addend: 0x0, symName: '+[GDTCORApplication load]', symObjAddr: 0xE98, symBinAddr: 0x14880, symSize: 0x54 }
+  - { offset: 0x76591, size: 0x8, addend: 0x0, symName: '+[GDTCORApplication initialize]', symObjAddr: 0xEEC, symBinAddr: 0x148D4, symSize: 0x4 }
+  - { offset: 0x765C1, size: 0x8, addend: 0x0, symName: '+[GDTCORApplication sharedApplication].cold.1', symObjAddr: 0x1484, symBinAddr: 0x18864, symSize: 0x14 }
+  - { offset: 0x765DD, size: 0x8, addend: 0x0, symName: '+[GDTCORApplication sharedApplication].cold.1', symObjAddr: 0x1484, symBinAddr: 0x18864, symSize: 0x14 }
+  - { offset: 0x765F0, size: 0x8, addend: 0x0, symName: '___38+[GDTCORApplication sharedApplication]_block_invoke', symObjAddr: 0xF34, symBinAddr: 0x1491C, symSize: 0x30 }
+  - { offset: 0x76619, size: 0x8, addend: 0x0, symName: '-[GDTCORApplication init]', symObjAddr: 0xF64, symBinAddr: 0x1494C, symSize: 0x13C }
+  - { offset: 0x76682, size: 0x8, addend: 0x0, symName: '-[GDTCORApplication beginBackgroundTaskWithName:expirationHandler:]', symObjAddr: 0x10A0, symBinAddr: 0x14A88, symSize: 0xCC }
+  - { offset: 0x76707, size: 0x8, addend: 0x0, symName: '-[GDTCORApplication endBackgroundTask:]', symObjAddr: 0x116C, symBinAddr: 0x14B54, symSize: 0x88 }
+  - { offset: 0x76766, size: 0x8, addend: 0x0, symName: '-[GDTCORApplication isAppExtension]', symObjAddr: 0x11F4, symBinAddr: 0x14BDC, symSize: 0x6C }
+  - { offset: 0x767AB, size: 0x8, addend: 0x0, symName: '-[GDTCORApplication sharedApplicationForBackgroundTask]', symObjAddr: 0x1260, symBinAddr: 0x14C48, symSize: 0x68 }
+  - { offset: 0x7687C, size: 0x8, addend: 0x0, symName: '-[GDTCORApplication iOSApplicationDidEnterBackground:]', symObjAddr: 0x12C8, symBinAddr: 0x14CB0, symSize: 0x78 }
+  - { offset: 0x768E9, size: 0x8, addend: 0x0, symName: '-[GDTCORApplication iOSApplicationWillEnterForeground:]', symObjAddr: 0x1340, symBinAddr: 0x14D28, symSize: 0x74 }
+  - { offset: 0x76956, size: 0x8, addend: 0x0, symName: '-[GDTCORApplication iOSApplicationWillTerminate:]', symObjAddr: 0x13B4, symBinAddr: 0x14D9C, symSize: 0x70 }
+  - { offset: 0x769BF, size: 0x8, addend: 0x0, symName: '-[GDTCORApplication isRunningInBackground]', symObjAddr: 0x1424, symBinAddr: 0x14E0C, symSize: 0xC }
+  - { offset: 0x769F7, size: 0x8, addend: 0x0, symName: '-[GDTCORApplication setIsRunningInBackground:]', symObjAddr: 0x1430, symBinAddr: 0x14E18, symSize: 0x8 }
+  - { offset: 0x76C61, size: 0x8, addend: 0x0, symName: '-[GDTCORProductData initWithProductID:]', symObjAddr: 0x0, symBinAddr: 0x14E20, symSize: 0x48 }
+  - { offset: 0x76CAB, size: 0x8, addend: 0x0, symName: '-[GDTCORProductData initWithProductID:]', symObjAddr: 0x0, symBinAddr: 0x14E20, symSize: 0x48 }
+  - { offset: 0x76CF2, size: 0x8, addend: 0x0, symName: '-[GDTCORProductData copyWithZone:]', symObjAddr: 0x48, symBinAddr: 0x14E68, symSize: 0x38 }
+  - { offset: 0x76D35, size: 0x8, addend: 0x0, symName: '-[GDTCORProductData isEqualToProductData:]', symObjAddr: 0x80, symBinAddr: 0x14EA0, symSize: 0x58 }
+  - { offset: 0x76D7C, size: 0x8, addend: 0x0, symName: '-[GDTCORProductData isEqual:]', symObjAddr: 0xD8, symBinAddr: 0x14EF8, symSize: 0x78 }
+  - { offset: 0x76DC3, size: 0x8, addend: 0x0, symName: '-[GDTCORProductData hash]', symObjAddr: 0x150, symBinAddr: 0x14F70, symSize: 0x18 }
+  - { offset: 0x76DFA, size: 0x8, addend: 0x0, symName: '+[GDTCORProductData supportsSecureCoding]', symObjAddr: 0x168, symBinAddr: 0x14F88, symSize: 0x8 }
+  - { offset: 0x76E2D, size: 0x8, addend: 0x0, symName: '-[GDTCORProductData initWithCoder:]', symObjAddr: 0x170, symBinAddr: 0x14F90, symSize: 0x38 }
+  - { offset: 0x76E84, size: 0x8, addend: 0x0, symName: '-[GDTCORProductData encodeWithCoder:]', symObjAddr: 0x1A8, symBinAddr: 0x14FC8, symSize: 0x48 }
+  - { offset: 0x76EC7, size: 0x8, addend: 0x0, symName: '-[GDTCORProductData productID]', symObjAddr: 0x1F0, symBinAddr: 0x15010, symSize: 0x8 }
+  - { offset: 0x76F9C, size: 0x8, addend: 0x0, symName: '+[GDTCORReachability initialize]', symObjAddr: 0x0, symBinAddr: 0x15018, symSize: 0x1C }
+  - { offset: 0x76FAA, size: 0x8, addend: 0x0, symName: '+[GDTCORReachability sharedInstance]', symObjAddr: 0x1C, symBinAddr: 0x15034, symSize: 0x44 }
+  - { offset: 0x76FD4, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x4A50, symBinAddr: 0x32238, symSize: 0x0 }
+  - { offset: 0x76FEA, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x4A58, symBinAddr: 0x32240, symSize: 0x0 }
+  - { offset: 0x7715A, size: 0x8, addend: 0x0, symName: '+[GDTCORReachability initialize]', symObjAddr: 0x0, symBinAddr: 0x15018, symSize: 0x1C }
+  - { offset: 0x771C9, size: 0x8, addend: 0x0, symName: '+[GDTCORReachability sharedInstance].cold.1', symObjAddr: 0x454, symBinAddr: 0x18878, symSize: 0x14 }
+  - { offset: 0x771E5, size: 0x8, addend: 0x0, symName: '+[GDTCORReachability sharedInstance].cold.1', symObjAddr: 0x454, symBinAddr: 0x18878, symSize: 0x14 }
+  - { offset: 0x771F7, size: 0x8, addend: 0x0, symName: '___36+[GDTCORReachability sharedInstance]_block_invoke', symObjAddr: 0x60, symBinAddr: 0x15078, symSize: 0x30 }
+  - { offset: 0x7721E, size: 0x8, addend: 0x0, symName: '+[GDTCORReachability currentFlags]', symObjAddr: 0x90, symBinAddr: 0x150A8, symSize: 0xC0 }
+  - { offset: 0x7728F, size: 0x8, addend: 0x0, symName: '___34+[GDTCORReachability currentFlags]_block_invoke', symObjAddr: 0x150, symBinAddr: 0x15168, symSize: 0x7C }
+  - { offset: 0x77338, size: 0x8, addend: 0x0, symName: '-[GDTCORReachability init]', symObjAddr: 0x1E8, symBinAddr: 0x151E4, symSize: 0x16C }
+  - { offset: 0x774CB, size: 0x8, addend: 0x0, symName: _GDTCORReachabilityCallback, symObjAddr: 0x354, symBinAddr: 0x15350, symSize: 0x60 }
+  - { offset: 0x77525, size: 0x8, addend: 0x0, symName: '___26-[GDTCORReachability init]_block_invoke', symObjAddr: 0x3B4, symBinAddr: 0x153B0, symSize: 0x60 }
+  - { offset: 0x775C9, size: 0x8, addend: 0x0, symName: '-[GDTCORReachability setCallbackFlags:]', symObjAddr: 0x424, symBinAddr: 0x15410, symSize: 0x14 }
+  - { offset: 0x77608, size: 0x8, addend: 0x0, symName: '-[GDTCORReachability flags]', symObjAddr: 0x438, symBinAddr: 0x15424, symSize: 0x8 }
+  - { offset: 0x7763F, size: 0x8, addend: 0x0, symName: '-[GDTCORReachability setFlags:]', symObjAddr: 0x440, symBinAddr: 0x1542C, symSize: 0x8 }
+  - { offset: 0x7767C, size: 0x8, addend: 0x0, symName: '-[GDTCORReachability .cxx_destruct]', symObjAddr: 0x448, symBinAddr: 0x15434, symSize: 0xC }
+  - { offset: 0x778D5, size: 0x8, addend: 0x0, symName: _GDTCORStorageInstanceForTarget, symObjAddr: 0x0, symBinAddr: 0x15440, symSize: 0x9C }
+  - { offset: 0x778E3, size: 0x8, addend: 0x0, symName: '+[GDTCORRegistrar sharedInstance]', symObjAddr: 0x204, symBinAddr: 0x15644, symSize: 0x44 }
+  - { offset: 0x7790D, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x8B80, symBinAddr: 0x32248, symSize: 0x0 }
+  - { offset: 0x77923, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x8B88, symBinAddr: 0x32250, symSize: 0x0 }
+  - { offset: 0x77ADE, size: 0x8, addend: 0x0, symName: _GDTCORStorageInstanceForTarget, symObjAddr: 0x0, symBinAddr: 0x15440, symSize: 0x9C }
+  - { offset: 0x77B09, size: 0x8, addend: 0x0, symName: _GDTCORStoragePromiseInstanceForTarget, symObjAddr: 0x9C, symBinAddr: 0x154DC, symSize: 0xCC }
+  - { offset: 0x77B44, size: 0x8, addend: 0x0, symName: _GDTCORMetricsControllerInstanceForTarget, symObjAddr: 0x168, symBinAddr: 0x155A8, symSize: 0x9C }
+  - { offset: 0x77BAB, size: 0x8, addend: 0x0, symName: '+[GDTCORRegistrar sharedInstance].cold.1', symObjAddr: 0x1488, symBinAddr: 0x1888C, symSize: 0x14 }
+  - { offset: 0x77BC7, size: 0x8, addend: 0x0, symName: '+[GDTCORRegistrar sharedInstance].cold.1', symObjAddr: 0x1488, symBinAddr: 0x1888C, symSize: 0x14 }
+  - { offset: 0x77BD9, size: 0x8, addend: 0x0, symName: '___33+[GDTCORRegistrar sharedInstance]_block_invoke', symObjAddr: 0x248, symBinAddr: 0x15688, symSize: 0x30 }
+  - { offset: 0x77C00, size: 0x8, addend: 0x0, symName: '-[GDTCORRegistrar init]', symObjAddr: 0x278, symBinAddr: 0x156B8, symSize: 0xCC }
+  - { offset: 0x77C6E, size: 0x8, addend: 0x0, symName: '-[GDTCORRegistrar registerUploader:target:]', symObjAddr: 0x344, symBinAddr: 0x15784, symSize: 0xC4 }
+  - { offset: 0x77D00, size: 0x8, addend: 0x0, symName: '___43-[GDTCORRegistrar registerUploader:target:]_block_invoke', symObjAddr: 0x408, symBinAddr: 0x15848, symSize: 0x9C }
+  - { offset: 0x77DC9, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40w, symObjAddr: 0x4A4, symBinAddr: 0x158E4, symSize: 0x30 }
+  - { offset: 0x77DF2, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40w, symObjAddr: 0x4D4, symBinAddr: 0x15914, symSize: 0x28 }
+  - { offset: 0x77E11, size: 0x8, addend: 0x0, symName: '-[GDTCORRegistrar registerStorage:target:]', symObjAddr: 0x4FC, symBinAddr: 0x1593C, symSize: 0xCC }
+  - { offset: 0x77E90, size: 0x8, addend: 0x0, symName: '___42-[GDTCORRegistrar registerStorage:target:]_block_invoke', symObjAddr: 0x5C8, symBinAddr: 0x15A08, symSize: 0xB0 }
+  - { offset: 0x77F39, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48w, symObjAddr: 0x678, symBinAddr: 0x15AB8, symSize: 0x38 }
+  - { offset: 0x77F62, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48w, symObjAddr: 0x6B0, symBinAddr: 0x15AF0, symSize: 0x30 }
+  - { offset: 0x77F81, size: 0x8, addend: 0x0, symName: '-[GDTCORRegistrar registerMetricsController:target:]', symObjAddr: 0x6E0, symBinAddr: 0x15B20, symSize: 0xCC }
+  - { offset: 0x78000, size: 0x8, addend: 0x0, symName: '___52-[GDTCORRegistrar registerMetricsController:target:]_block_invoke', symObjAddr: 0x7AC, symBinAddr: 0x15BEC, symSize: 0xB0 }
+  - { offset: 0x780A9, size: 0x8, addend: 0x0, symName: '-[GDTCORRegistrar targetToUploader]', symObjAddr: 0x85C, symBinAddr: 0x15C9C, symSize: 0xEC }
+  - { offset: 0x78136, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x948, symBinAddr: 0x15D88, symSize: 0x10 }
+  - { offset: 0x7815B, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x958, symBinAddr: 0x15D98, symSize: 0x8 }
+  - { offset: 0x7817A, size: 0x8, addend: 0x0, symName: '___35-[GDTCORRegistrar targetToUploader]_block_invoke', symObjAddr: 0x960, symBinAddr: 0x15DA0, symSize: 0x58 }
+  - { offset: 0x781E4, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32r40w, symObjAddr: 0x9B8, symBinAddr: 0x15DF8, symSize: 0x38 }
+  - { offset: 0x7820D, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32r40w, symObjAddr: 0x9F0, symBinAddr: 0x15E30, symSize: 0x2C }
+  - { offset: 0x7822C, size: 0x8, addend: 0x0, symName: '-[GDTCORRegistrar targetToStorage]', symObjAddr: 0xA1C, symBinAddr: 0x15E5C, symSize: 0xEC }
+  - { offset: 0x782A5, size: 0x8, addend: 0x0, symName: '___34-[GDTCORRegistrar targetToStorage]_block_invoke', symObjAddr: 0xB08, symBinAddr: 0x15F48, symSize: 0x58 }
+  - { offset: 0x7830F, size: 0x8, addend: 0x0, symName: '-[GDTCORRegistrar targetToMetricsController]', symObjAddr: 0xB60, symBinAddr: 0x15FA0, symSize: 0xEC }
+  - { offset: 0x78388, size: 0x8, addend: 0x0, symName: '___44-[GDTCORRegistrar targetToMetricsController]_block_invoke', symObjAddr: 0xC4C, symBinAddr: 0x1608C, symSize: 0x58 }
+  - { offset: 0x783F2, size: 0x8, addend: 0x0, symName: '-[GDTCORRegistrar setMetricsControllerAsStorageDelegateForTarget:]', symObjAddr: 0xCA4, symBinAddr: 0x160E4, symSize: 0xBC }
+  - { offset: 0x78435, size: 0x8, addend: 0x0, symName: '-[GDTCORRegistrar appWillBackground:]', symObjAddr: 0xD60, symBinAddr: 0x161A0, symSize: 0x248 }
+  - { offset: 0x784D6, size: 0x8, addend: 0x0, symName: '-[GDTCORRegistrar appWillForeground:]', symObjAddr: 0xFA8, symBinAddr: 0x163E8, symSize: 0x248 }
+  - { offset: 0x78577, size: 0x8, addend: 0x0, symName: '-[GDTCORRegistrar appWillTerminate:]', symObjAddr: 0x11F0, symBinAddr: 0x16630, symSize: 0x248 }
+  - { offset: 0x78618, size: 0x8, addend: 0x0, symName: '-[GDTCORRegistrar registrarQueue]', symObjAddr: 0x1438, symBinAddr: 0x16878, symSize: 0x8 }
+  - { offset: 0x7864F, size: 0x8, addend: 0x0, symName: '-[GDTCORRegistrar .cxx_destruct]', symObjAddr: 0x1440, symBinAddr: 0x16880, symSize: 0x48 }
+  - { offset: 0x78BA4, size: 0x8, addend: 0x0, symName: '+[GDTCORStorageEventSelector eventSelectorForTarget:]', symObjAddr: 0x0, symBinAddr: 0x168C8, symSize: 0x34 }
+  - { offset: 0x78C87, size: 0x8, addend: 0x0, symName: '+[GDTCORStorageEventSelector eventSelectorForTarget:]', symObjAddr: 0x0, symBinAddr: 0x168C8, symSize: 0x34 }
+  - { offset: 0x78CCE, size: 0x8, addend: 0x0, symName: '-[GDTCORStorageEventSelector initWithTarget:eventIDs:mappingIDs:qosTiers:]', symObjAddr: 0x34, symBinAddr: 0x168FC, symSize: 0xDC }
+  - { offset: 0x78D45, size: 0x8, addend: 0x0, symName: '-[GDTCORStorageEventSelector selectedTarget]', symObjAddr: 0x110, symBinAddr: 0x169D8, symSize: 0x8 }
+  - { offset: 0x78D7C, size: 0x8, addend: 0x0, symName: '-[GDTCORStorageEventSelector selectedEventIDs]', symObjAddr: 0x118, symBinAddr: 0x169E0, symSize: 0x8 }
+  - { offset: 0x78DB3, size: 0x8, addend: 0x0, symName: '-[GDTCORStorageEventSelector selectedMappingIDs]', symObjAddr: 0x120, symBinAddr: 0x169E8, symSize: 0x8 }
+  - { offset: 0x78DEA, size: 0x8, addend: 0x0, symName: '-[GDTCORStorageEventSelector selectedQosTiers]', symObjAddr: 0x128, symBinAddr: 0x169F0, symSize: 0x8 }
+  - { offset: 0x78E21, size: 0x8, addend: 0x0, symName: '-[GDTCORStorageEventSelector .cxx_destruct]', symObjAddr: 0x130, symBinAddr: 0x169F8, symSize: 0x3C }
+  - { offset: 0x78EDF, size: 0x8, addend: 0x0, symName: '-[GDTCORStorageMetadata initWithCurrentCacheSize:maxCacheSize:]', symObjAddr: 0x0, symBinAddr: 0x16A34, symSize: 0x4C }
+  - { offset: 0x78F4E, size: 0x8, addend: 0x0, symName: '-[GDTCORStorageMetadata initWithCurrentCacheSize:maxCacheSize:]', symObjAddr: 0x0, symBinAddr: 0x16A34, symSize: 0x4C }
+  - { offset: 0x78FA5, size: 0x8, addend: 0x0, symName: '+[GDTCORStorageMetadata metadataWithCurrentCacheSize:maxCacheSize:]', symObjAddr: 0x4C, symBinAddr: 0x16A80, symSize: 0x30 }
+  - { offset: 0x78FFC, size: 0x8, addend: 0x0, symName: '-[GDTCORStorageMetadata currentCacheSize]', symObjAddr: 0x7C, symBinAddr: 0x16AB0, symSize: 0x8 }
+  - { offset: 0x79033, size: 0x8, addend: 0x0, symName: '-[GDTCORStorageMetadata maxCacheSize]', symObjAddr: 0x84, symBinAddr: 0x16AB8, symSize: 0x8 }
+  - { offset: 0x790F5, size: 0x8, addend: 0x0, symName: '+[GDTCORTransformer sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x16AC0, symSize: 0x88 }
+  - { offset: 0x79103, size: 0x8, addend: 0x0, symName: '+[GDTCORTransformer sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x16AC0, symSize: 0x88 }
+  - { offset: 0x7912D, size: 0x8, addend: 0x0, symName: _sharedInstance.eventTransformer, symObjAddr: 0x6118, symBinAddr: 0x32258, symSize: 0x0 }
+  - { offset: 0x79143, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x6120, symBinAddr: 0x32260, symSize: 0x0 }
+  - { offset: 0x7937C, size: 0x8, addend: 0x0, symName: '___35+[GDTCORTransformer sharedInstance]_block_invoke', symObjAddr: 0x88, symBinAddr: 0x16B48, symSize: 0x2C }
+  - { offset: 0x793BB, size: 0x8, addend: 0x0, symName: '-[GDTCORTransformer init]', symObjAddr: 0xB4, symBinAddr: 0x16B74, symSize: 0x50 }
+  - { offset: 0x793F2, size: 0x8, addend: 0x0, symName: '-[GDTCORTransformer initWithApplication:]', symObjAddr: 0x104, symBinAddr: 0x16BC4, symSize: 0x94 }
+  - { offset: 0x79470, size: 0x8, addend: 0x0, symName: '-[GDTCORTransformer transformEvent:withTransformers:onComplete:]', symObjAddr: 0x198, symBinAddr: 0x16C58, symSize: 0x260 }
+  - { offset: 0x79538, size: 0x8, addend: 0x0, symName: '___64-[GDTCORTransformer transformEvent:withTransformers:onComplete:]_block_invoke', symObjAddr: 0x3F8, symBinAddr: 0x16EB8, symSize: 0x58 }
+  - { offset: 0x79583, size: 0x8, addend: 0x0, symName: '___64-[GDTCORTransformer transformEvent:withTransformers:onComplete:]_block_invoke.3', symObjAddr: 0x4B4, symBinAddr: 0x16F10, symSize: 0xBC }
+  - { offset: 0x79668, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b40r48w, symObjAddr: 0x570, symBinAddr: 0x16FCC, symSize: 0x48 }
+  - { offset: 0x79691, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40r48w, symObjAddr: 0x5B8, symBinAddr: 0x17014, symSize: 0x34 }
+  - { offset: 0x796B0, size: 0x8, addend: 0x0, symName: '___64-[GDTCORTransformer transformEvent:withTransformers:onComplete:]_block_invoke.7', symObjAddr: 0x5EC, symBinAddr: 0x17048, symSize: 0x24C }
+  - { offset: 0x797A9, size: 0x8, addend: 0x0, symName: '-[GDTCORTransformer eventWritingQueue]', symObjAddr: 0x8A4, symBinAddr: 0x17294, symSize: 0x8 }
+  - { offset: 0x797E0, size: 0x8, addend: 0x0, symName: '-[GDTCORTransformer setEventWritingQueue:]', symObjAddr: 0x8AC, symBinAddr: 0x1729C, symSize: 0x30 }
+  - { offset: 0x79821, size: 0x8, addend: 0x0, symName: '-[GDTCORTransformer application]', symObjAddr: 0x8DC, symBinAddr: 0x172CC, symSize: 0x8 }
+  - { offset: 0x79858, size: 0x8, addend: 0x0, symName: '-[GDTCORTransformer .cxx_destruct]', symObjAddr: 0x8E4, symBinAddr: 0x172D4, symSize: 0x30 }
+  - { offset: 0x79D24, size: 0x8, addend: 0x0, symName: '-[GDTCORTransport initWithMappingID:transformers:target:]', symObjAddr: 0x0, symBinAddr: 0x17304, symSize: 0x12C }
+  - { offset: 0x79EED, size: 0x8, addend: 0x0, symName: '-[GDTCORTransport initWithMappingID:transformers:target:]', symObjAddr: 0x0, symBinAddr: 0x17304, symSize: 0x12C }
+  - { offset: 0x79F9E, size: 0x8, addend: 0x0, symName: '-[GDTCORTransport sendTelemetryEvent:onComplete:]', symObjAddr: 0x12C, symBinAddr: 0x17430, symSize: 0x64 }
+  - { offset: 0x79FF1, size: 0x8, addend: 0x0, symName: '-[GDTCORTransport sendDataEvent:onComplete:]', symObjAddr: 0x190, symBinAddr: 0x17494, symSize: 0x4 }
+  - { offset: 0x7A03E, size: 0x8, addend: 0x0, symName: '-[GDTCORTransport sendTelemetryEvent:]', symObjAddr: 0x194, symBinAddr: 0x17498, symSize: 0x8 }
+  - { offset: 0x7A07D, size: 0x8, addend: 0x0, symName: '-[GDTCORTransport sendDataEvent:]', symObjAddr: 0x19C, symBinAddr: 0x174A0, symSize: 0x8 }
+  - { offset: 0x7A0BC, size: 0x8, addend: 0x0, symName: '-[GDTCORTransport eventForTransport]', symObjAddr: 0x1A4, symBinAddr: 0x174A8, symSize: 0x34 }
+  - { offset: 0x7A0F3, size: 0x8, addend: 0x0, symName: '-[GDTCORTransport eventForTransportWithProductData:]', symObjAddr: 0x1D8, symBinAddr: 0x174DC, symSize: 0x60 }
+  - { offset: 0x7A13A, size: 0x8, addend: 0x0, symName: '-[GDTCORTransport sendEvent:onComplete:]', symObjAddr: 0x238, symBinAddr: 0x1753C, symSize: 0xA4 }
+  - { offset: 0x7A19D, size: 0x8, addend: 0x0, symName: '-[GDTCORTransport mappingID]', symObjAddr: 0x2DC, symBinAddr: 0x175E0, symSize: 0x8 }
+  - { offset: 0x7A1D4, size: 0x8, addend: 0x0, symName: '-[GDTCORTransport setMappingID:]', symObjAddr: 0x2E4, symBinAddr: 0x175E8, symSize: 0x30 }
+  - { offset: 0x7A215, size: 0x8, addend: 0x0, symName: '-[GDTCORTransport transformers]', symObjAddr: 0x314, symBinAddr: 0x17618, symSize: 0x8 }
+  - { offset: 0x7A24C, size: 0x8, addend: 0x0, symName: '-[GDTCORTransport setTransformers:]', symObjAddr: 0x31C, symBinAddr: 0x17620, symSize: 0x30 }
+  - { offset: 0x7A28D, size: 0x8, addend: 0x0, symName: '-[GDTCORTransport target]', symObjAddr: 0x34C, symBinAddr: 0x17650, symSize: 0x8 }
+  - { offset: 0x7A2C4, size: 0x8, addend: 0x0, symName: '-[GDTCORTransport setTarget:]', symObjAddr: 0x354, symBinAddr: 0x17658, symSize: 0x8 }
+  - { offset: 0x7A301, size: 0x8, addend: 0x0, symName: '-[GDTCORTransport transformerInstance]', symObjAddr: 0x35C, symBinAddr: 0x17660, symSize: 0x8 }
+  - { offset: 0x7A338, size: 0x8, addend: 0x0, symName: '-[GDTCORTransport setTransformerInstance:]', symObjAddr: 0x364, symBinAddr: 0x17668, symSize: 0x30 }
+  - { offset: 0x7A379, size: 0x8, addend: 0x0, symName: '-[GDTCORTransport .cxx_destruct]', symObjAddr: 0x394, symBinAddr: 0x17698, symSize: 0x3C }
+  - { offset: 0x7A5F0, size: 0x8, addend: 0x0, symName: '-[GDTCORUploadBatch initWithBatchID:events:]', symObjAddr: 0x0, symBinAddr: 0x176D4, symSize: 0xA4 }
+  - { offset: 0x7A657, size: 0x8, addend: 0x0, symName: '-[GDTCORUploadBatch initWithBatchID:events:]', symObjAddr: 0x0, symBinAddr: 0x176D4, symSize: 0xA4 }
+  - { offset: 0x7A6AE, size: 0x8, addend: 0x0, symName: '-[GDTCORUploadBatch batchID]', symObjAddr: 0xA4, symBinAddr: 0x17778, symSize: 0x8 }
+  - { offset: 0x7A6E5, size: 0x8, addend: 0x0, symName: '-[GDTCORUploadBatch events]', symObjAddr: 0xAC, symBinAddr: 0x17780, symSize: 0x8 }
+  - { offset: 0x7A71C, size: 0x8, addend: 0x0, symName: '-[GDTCORUploadBatch .cxx_destruct]', symObjAddr: 0xB4, symBinAddr: 0x17788, symSize: 0x30 }
+  - { offset: 0x7A7CC, size: 0x8, addend: 0x0, symName: '+[GDTCORUploadCoordinator sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x177B8, symSize: 0x44 }
+  - { offset: 0x7A7DA, size: 0x8, addend: 0x0, symName: '+[GDTCORUploadCoordinator sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x177B8, symSize: 0x44 }
+  - { offset: 0x7A804, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedUploader, symObjAddr: 0x7580, symBinAddr: 0x32268, symSize: 0x0 }
+  - { offset: 0x7A81A, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x7588, symBinAddr: 0x32270, symSize: 0x0 }
+  - { offset: 0x7AAAC, size: 0x8, addend: 0x0, symName: '+[GDTCORUploadCoordinator sharedInstance].cold.1', symObjAddr: 0xACC, symBinAddr: 0x188A0, symSize: 0x14 }
+  - { offset: 0x7AAC8, size: 0x8, addend: 0x0, symName: '+[GDTCORUploadCoordinator sharedInstance].cold.1', symObjAddr: 0xACC, symBinAddr: 0x188A0, symSize: 0x14 }
+  - { offset: 0x7AADA, size: 0x8, addend: 0x0, symName: '___41+[GDTCORUploadCoordinator sharedInstance]_block_invoke', symObjAddr: 0x44, symBinAddr: 0x177FC, symSize: 0x40 }
+  - { offset: 0x7AB01, size: 0x8, addend: 0x0, symName: '-[GDTCORUploadCoordinator init]', symObjAddr: 0x84, symBinAddr: 0x1783C, symSize: 0x98 }
+  - { offset: 0x7AB6F, size: 0x8, addend: 0x0, symName: '-[GDTCORUploadCoordinator forceUploadForTarget:]', symObjAddr: 0x11C, symBinAddr: 0x178D4, symSize: 0x58 }
+  - { offset: 0x7ABDB, size: 0x8, addend: 0x0, symName: '___48-[GDTCORUploadCoordinator forceUploadForTarget:]_block_invoke', symObjAddr: 0x174, symBinAddr: 0x1792C, symSize: 0xE0 }
+  - { offset: 0x7AC94, size: 0x8, addend: 0x0, symName: '-[GDTCORUploadCoordinator startTimer]', symObjAddr: 0x264, symBinAddr: 0x17A0C, symSize: 0x58 }
+  - { offset: 0x7ACDD, size: 0x8, addend: 0x0, symName: '___37-[GDTCORUploadCoordinator startTimer]_block_invoke', symObjAddr: 0x2BC, symBinAddr: 0x17A64, symSize: 0xF8 }
+  - { offset: 0x7AE39, size: 0x8, addend: 0x0, symName: '___37-[GDTCORUploadCoordinator startTimer]_block_invoke_2', symObjAddr: 0x3B4, symBinAddr: 0x17B5C, symSize: 0x100 }
+  - { offset: 0x7AEB2, size: 0x8, addend: 0x0, symName: '-[GDTCORUploadCoordinator stopTimer]', symObjAddr: 0x4B4, symBinAddr: 0x17C5C, symSize: 0x3C }
+  - { offset: 0x7AF02, size: 0x8, addend: 0x0, symName: '-[GDTCORUploadCoordinator uploadTargets:conditions:]', symObjAddr: 0x4F0, symBinAddr: 0x17C98, symSize: 0x98 }
+  - { offset: 0x7AF72, size: 0x8, addend: 0x0, symName: '___52-[GDTCORUploadCoordinator uploadTargets:conditions:]_block_invoke', symObjAddr: 0x588, symBinAddr: 0x17D30, symSize: 0x15C }
+  - { offset: 0x7B007, size: 0x8, addend: 0x0, symName: '-[GDTCORUploadCoordinator signalToStoragesToCheckExpirations]', symObjAddr: 0x734, symBinAddr: 0x17E8C, symSize: 0x148 }
+  - { offset: 0x7B069, size: 0x8, addend: 0x0, symName: '-[GDTCORUploadCoordinator storageForTarget:]', symObjAddr: 0x87C, symBinAddr: 0x17FD4, symSize: 0x88 }
+  - { offset: 0x7B0BC, size: 0x8, addend: 0x0, symName: '-[GDTCORUploadCoordinator uploadConditions]', symObjAddr: 0x904, symBinAddr: 0x1805C, symSize: 0x50 }
+  - { offset: 0x7B175, size: 0x8, addend: 0x0, symName: '-[GDTCORUploadCoordinator appWillForeground:]', symObjAddr: 0x954, symBinAddr: 0x180AC, symSize: 0x24 }
+  - { offset: 0x7B1B4, size: 0x8, addend: 0x0, symName: '-[GDTCORUploadCoordinator appWillBackground:]', symObjAddr: 0x978, symBinAddr: 0x180D0, symSize: 0x58 }
+  - { offset: 0x7B209, size: 0x8, addend: 0x0, symName: '___45-[GDTCORUploadCoordinator appWillBackground:]_block_invoke', symObjAddr: 0x9D0, symBinAddr: 0x18128, symSize: 0x8 }
+  - { offset: 0x7B248, size: 0x8, addend: 0x0, symName: '-[GDTCORUploadCoordinator appWillTerminate:]', symObjAddr: 0x9D8, symBinAddr: 0x18130, symSize: 0x58 }
+  - { offset: 0x7B29D, size: 0x8, addend: 0x0, symName: '___44-[GDTCORUploadCoordinator appWillTerminate:]_block_invoke', symObjAddr: 0xA30, symBinAddr: 0x18188, symSize: 0x8 }
+  - { offset: 0x7B2DC, size: 0x8, addend: 0x0, symName: '-[GDTCORUploadCoordinator coordinationQueue]', symObjAddr: 0xA38, symBinAddr: 0x18190, symSize: 0x8 }
+  - { offset: 0x7B313, size: 0x8, addend: 0x0, symName: '-[GDTCORUploadCoordinator timer]', symObjAddr: 0xA40, symBinAddr: 0x18198, symSize: 0x8 }
+  - { offset: 0x7B34A, size: 0x8, addend: 0x0, symName: '-[GDTCORUploadCoordinator timerInterval]', symObjAddr: 0xA48, symBinAddr: 0x181A0, symSize: 0x8 }
+  - { offset: 0x7B381, size: 0x8, addend: 0x0, symName: '-[GDTCORUploadCoordinator timerLeeway]', symObjAddr: 0xA50, symBinAddr: 0x181A8, symSize: 0x8 }
+  - { offset: 0x7B3B8, size: 0x8, addend: 0x0, symName: '-[GDTCORUploadCoordinator registrar]', symObjAddr: 0xA58, symBinAddr: 0x181B0, symSize: 0x8 }
+  - { offset: 0x7B3EF, size: 0x8, addend: 0x0, symName: '-[GDTCORUploadCoordinator setRegistrar:]', symObjAddr: 0xA60, symBinAddr: 0x181B8, symSize: 0x30 }
+  - { offset: 0x7B430, size: 0x8, addend: 0x0, symName: '-[GDTCORUploadCoordinator .cxx_destruct]', symObjAddr: 0xA90, symBinAddr: 0x181E8, symSize: 0x3C }
+...

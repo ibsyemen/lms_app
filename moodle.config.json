@@ -1,8 +1,8 @@
 {
     "app_id": "ye.edu.ibs.lms",
     "appname": "منصة معهد الدراسات المصرفية - IBS",
-    "versioncode": 53000,
-    "versionname": "5.3.0",
+    "versioncode": 1,
+    "versionname": "1.0.0",
     "cache_update_frequency_usually": 420000,
     "cache_update_frequency_often": 1200000,
     "cache_update_frequency_sometimes": 3600000,

@@ -1,0 +1,18 @@
+diff --git a/node_modules/@moodlehq/phonegap-plugin-push/src/ios/EncryptionHandler.m b/node_modules/@moodlehq/phonegap-plugin-push/src/ios/EncryptionHandler.m
+index 1ee2277..6c7e8a0 100644
+--- a/node_modules/@moodlehq/phonegap-plugin-push/src/ios/EncryptionHandler.m
++++ b/node_modules/@moodlehq/phonegap-plugin-push/src/ios/EncryptionHandler.m
+@@ -6,7 +6,13 @@
+ //
+ 
+ #import "EncryptionHandler.h"
++#if __has_include("منصة_معهد_الدراسات_المصرفية-Swift.h")
++#import "منصة_معهد_الدراسات_المصرفية-Swift.h"
++#elif __has_include("Moodle-Swift.h")
+ #import "Moodle-Swift.h"
++#elif __has_include("App-Swift.h")
++#import "App-Swift.h"
++#endif
+ 
+ @implementation EncryptionHandler
+ 
